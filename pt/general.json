@@ -1,0 +1,103 @@
+{
+    "errors": {
+        "iAmMissingPermissions": "Faltam permissões. Para executar este comando, preciso da permissão `{perm}`."
+    },
+    "music": {
+        "errors": {
+            "noChannel": "Você precisa estar em um canal de voz.",
+            "notPlaying": "Não tem música tocando.",
+            "onlyDJ": "Você precisa ter a função de DJ para usar este comando."
+        },
+        "kickedFromChannel": "Fui removido do canal de voz. Vou parar a música e apagar a fila.",
+        "noListeners": "Nenhum membro permanece no `{channel}`, então eu pausei a música.",
+        "left": "Eu desconectei do `{channel}` porque ficou inativo por mais de 5 minutos."
+    },
+    "moderation": {
+        "errors": {
+            "missingPermissions": "Você não pode usar comandos de moderação. Você precisa da permissão `{perm}`.",
+            "cantPunishSelf": "Por que vai se punir?",
+            "cantPunishOwner": "Você não pode punir o dono do servidor.",
+            "cantPunishMe": "Eu me recuso a me punir."
+        }
+    },
+    "autoMod": {
+        "spam": {
+            "warn": "{user}, mais devagar!. Pare de enviar mensagens tão rápidas.",
+            "log": {
+                "title": "Detectado o envio de mensagens muito rápido"
+            }
+        },
+        "profanity": {
+            "warn": "{user}, continue jurando o mínimo possível! (`{filteredPhrase}`)",
+            "log": {
+                "title": "Profanação detectada",
+                "content": "Conteúdo da mensagem"
+            }
+        },
+        "phrase": {
+            "warn": "{user}, não use palavras na lista negra!",
+            "log": {
+                "title": "Palavras na lista negra detectadas",
+                "word": "Palavra"
+            }
+        },
+        "invite": {
+            "warn": "{usuário}, convites para servidores não são permitidos!",
+            "log": {
+                "title": "Um convite para um servidor detectado",
+                "invite": "Um convite para um servidor"
+            }
+        },
+        "raid": {
+            "log": {
+                "title": "Invasão detectada",
+                "accounts": "A contas",
+                "possible": "Detectamos que `{accounts}` participou da invasão"
+            }
+        }
+    },
+    "modLogs": {
+        "action": {
+            "kick": "Chatar - Caso #{case}",
+            "ban": "Banir - Caso #{case}",
+            "tempban": "Tempobanir - Caso #{case}",
+            "desbanir": "Unban - Caso #{case}"
+        },
+        "user": "Usuário",
+        "channel": "Canal",
+        "moderator": "Moderador",
+        "reason": "Motivo",
+        "time": "Duração",
+        "noReasonedCase": "Moderador, usa`{prefix}Motivo {case} <reason>`" 
+    },
+    "counters": {
+        "users": "Users: {count}",
+        "members": "Members: {count}",
+        "bots": "Bots: {count}"
+    },
+    "restrictions": {
+        "blacklist": {
+            "blacklistedChannel": "Você não pode executar o comando `{command}` no {channel}.",
+            "blacklistedRole": "Você não pode executar `{command}` porque você tem uma função na lista negra."
+        }
+    },
+    "logging": {
+        "messages": {
+            "messageDeleted": "A mensagem foi deletado em <# {channel}>",
+            "content": "Conteúdo",
+            "bulkDelete": "** {number} ** mensagens foram delatadas em <# {channel}>",
+            "messageEdited": "Mensagem editada em <# {channel}>",
+            "oldMessage": "Mensagem antiga",
+            "newMessage": "Nova mensagem"
+        }
+    },
+    "settings": {
+        "enabled": "Ativado",
+        "disabled": "Desativado"
+    },
+    "reactionRoles": {
+        "addedRole": "Eu dei a você o papel `{role}` em {guild}.",
+        "removedRole": "Eu removi sua papel `{role}` em {guild}. "
+    },
+    "members": "Membros"
+}
