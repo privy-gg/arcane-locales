@@ -1,0 +1,103 @@
+{
+    "errors": {
+        "iAmMissingPermissions": "Mir fehlen Berechtigungen. Hierfür brauche ich `{perm}`."
+    },
+    "music": {
+        "errors": {
+            "noChannel": "Du musst in einem Voice-Channel sein.",
+            "notPlaying": "Es spielt keine Musik.",
+            "onlyDJ": "Du brauchst hierfür die DJ-Rolle."
+        },
+        "kickedFromChannel": "Ich wurde von dem Voice-Channel gekickt. Stoppe die Musik und setze die Wiedergabeliste zurück.",
+        "noListeners": "In `{channel}` ist niemand mehr, also pausiere ich die Musik.",
+        "left": "Ich trennte mich von `{channel}`, da es mehr als 5 Minuten inaktiv war."
+    },
+    "moderation": {
+        "errors": {
+            "missingPermissions": "Du kannst Moderationsbefehle nicht nutzen, denn du brauchst die Berechtigung `{perm}`.",
+            "cantPunishSelf": "Ich weiß nicht, ob du das wirklich willst.",
+            "cantPunishOwner": "Du kannst den Besitzer nicht bestrafen.",
+            "cantPunishMe": "Pff. Ich weigere, mich selbst zu bestrafen."
+        }
+    },
+    "autoMod": {
+        "spam": {
+            "warn": "{user}, langsamer! Spamme nicht.",
+            "log": {
+                "title": "Spam erkannt"
+            }
+        },
+        "profanity": {
+            "warn": "{user}, versuch weniger zu schimpfen! (`{filteredPhrase}`)",
+            "log": {
+                "title": "Schimpfwort erkannt",
+                "content": "Inhalt"
+            }
+        },
+        "phrase": {
+            "warn": "{user}, nutze bitte keine Wörter in der Server-Blacklist!",
+            "log": {
+                "title": "Wort in der Server-Blacklist erkannt",
+                "word": "Wort"
+            }
+        },
+        "invite": {
+            "warn": "{user}, Einladungen sind hier nicht erlaubt!",
+            "log": {
+                "title": "Einladung Erkannt",
+                "invite": "Einladung"
+            }
+        },
+        "raid": {
+            "log": {
+                "title": "Raid Erkannt",
+                "accounts": "Accounts",
+                "possible": "`{accounts}` Nutzer sind wahrscheinlich Teil eines Raids."
+            }
+        }
+    },
+    "modLogs": {
+        "action": {
+            "kick": "Kick - Vorfall #{case}",
+            "ban": "Ban - Vorfall #{case}",
+            "tempban": "Ban auf Zeit - Vorfall #{case}",
+            "unban": "Entban - Vorfall #{case}"
+        },
+        "user": "Nutzer",
+        "channel": "Channel",
+        "moderator": "Moderator",
+        "reason": "Grund",
+        "time": "Länge",
+        "noReasonedCase": "Moderator, nutze `{prefix}reason {case} <Grund>`" 
+    },
+    "counters": {
+        "users": "Nutzer: {count}",
+        "members": "Mitglieder: {count}",
+        "bots": "Bots: {count}"
+    },
+    "restrictions": {
+        "blacklist": {
+            "blacklistedChannel": "Du kannst `{command}` nicht ausführen in {channel}.",
+            "blacklistedRole": "Du kannst `{command}` nicht ausführen weil du eine Rolle in der Blacklist hast."
+        }
+    },
+    "logging": {
+        "messages": {
+            "messageDeleted": "Nachricht gelöscht in <#{channel}>",
+            "content": "Inhalt",
+            "bulkDelete": "**{number}** Nachrichten gelöscht in <#{channel}>",
+            "messageEdited": "Nachricht bearbeitet in <#{channel}>",
+            "oldMessage": "Bevor",
+            "newMessage": "Nachher"
+        }
+    },
+    "settings": {
+        "enabled": "An",
+        "disabled": "Aus"
+    },
+    "reactionRoles": {
+        "addedRole": "Du hast nun die `{role}` Rolle in {guild}.",
+        "removedRole": "Du hast nicht mehr die `{role}` Rolle in {guild}. "
+    },
+    "members": "Mitglieder"
+}

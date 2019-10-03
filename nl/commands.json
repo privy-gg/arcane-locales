@@ -1,0 +1,295 @@
+{
+    "version": {
+        "thisInstance": "Arcane draait versie: `{version}`"
+    },
+    "restart": {
+        "nowRestarting": "<a:typing:528380923700314123> Herstarten `{shards}` shards."
+    },
+    "ping": {
+        "placeholder": "Werking...",
+        "ping": "Pong! `{ping}ms`. API: `{api}ms`"
+    },
+    "play": {
+        "errors": {
+            "noArgs": "U moet iets invoeren om naar te zoeken of een URL.",
+            "noResults": "Geen resultaten voor: `{search}`",
+            "noChannel": "Je moet op een spraakkanaal zijn.",
+            "maxSongs": "U heeft de maximale wachtrijlimiet van `{max}` bereikt. U kunt deze limiet verhogen door Arcane Premium te kopen. <https://arcanebot.xyz/premium>",
+            "maxSongsPlaylist": "`{added}` Nummers toegevoegd aan de wachtrij. U heeft de maximale wachtrijlimiet van `{max}` bereikt. U kunt deze limiet verhogen door Arcane Premium te kopen. <https://arcanebot.xyz/premium>"
+        },
+        "nowPlaying": "{emote} Nu aan het spelen {name}.",
+        "addedToQueue": "**{name}** toegevoegd aan de wachtrij.",
+        "noMoreSongs": "Er staat geen muziek meer in de wachtrij!",
+        "queuedPlaylist": "`{songs}` Nummers toegevoegd aan de wachtrij"
+    },
+    "loop": {
+        "nowLooping": "{emote} Lus is ingeschakeld.",
+        "stoppedLooping": "Lus is uitgeschakeld."
+    },
+    "shuffle": {
+        "nowShuffling": "{emote} Shuffling is ingeschakeld.",
+        "stoppedShuffling": "Shuffling is uitgeschakeld."
+    },
+    "skip": {
+        "skippingSong": "Sla het huidige nummer over.",
+        "alreadyVoted": "U heeft al gestemd om het nummer over te slaan.",
+        "noVotes": "Er zijn niet genoeg stemmen om het nummer over te slaan. {amount} van {required} heeft gestemd."
+    },
+    "nowplaying": {
+        "playing": "```ini\n[Now Playing] {song} aangevraagd door {user}```Vooruitgang: `{bar}` {time}"
+    },
+    "pause": {
+        "alreadyPaused": "De muziek is al gepauzeerd. Voer `{prefix}resume` uit om door te gaan met de muziek.",
+        "pausingSong": "Pauzeerde de muziek met succes."
+    },
+    "resume": {
+        "alreadyPlaying": "De muziek speelt al. Voer `{prefix}pause` uit om de muziek te pauzeren.",
+        "resumingSong": "Met succes de muziek hervat."
+    },
+    "seek": {
+        "noArgs": "Je moet zeggen hoe laat je moet zoeken.",
+        "seekedTo": "Gezocht naar `{time}`."
+    },
+    "volume": {
+        "noArgs": "U moet een volume opgeven.",
+        "setVolume": "Zet het volume op `{newVolume}%`.",
+        "maxVolume": "Het volume mag niet hoger zijn dan 200.",
+        "notDonor": "Er zijn geen premiumfuncties ingeschakeld voor deze server. Het maximale volume dat niet-donoren kunnen hebben is 150. Meer informatie op https://arcanebot.xyz/premium"
+    },
+    "stop": {
+        "stoppingPlayer": "**Stoppen de muziek en verlaten het kanaal.**"
+    },
+    "stats": {
+        "cluster": "Cluster {this}/{clusters}",
+        "guilds": "Gilden",
+        "users": "Gebruikers",
+        "other": "Anders",
+        "info": "Informatie",
+        "infoData": "Ram: `{ram} MB ({percentage}%)`\nVersion: `{version}`\nOwner: `{owner}`",
+        "otherData": "Spraak: `{voice}`\nShard: `{this}/{shards}`\nCommands Ran: `{commands}`",
+        "errorFetchingStats": "Er is een fout opgetreden bij het ophalen van statistieken. Probeer het over enkele minuten opnieuw.",
+        "extra": "Berichten: `{messages}`\nVotes: `{votes} ({totalVotes})`"
+    },
+    "level": {
+        "errors": {
+            "noRank": "Je hebt geen rang. Blijf chatten om een ​​rang te verdienen!"
+        },
+        "data": "Niveau: {level}\nExperience: {xp}/{neededXP} (`{totalXP} total`)\nRank: `{rank}/{ranks}`",
+        "footer": "{xp} meer xp naar levelup!",
+        "voteBooster": {
+            "hasVoted": "Stem booster: **10%** `({timeRemaining} remaining)`",
+            "noVote": "Stem booster: [Stem nu voor een boost van 10%](https://arcanebot.xyz/vote)"
+        }
+    },
+    "color": {
+        "invalidColor": "U moet een geldige kleur of hex-code opgeven.",
+        "updatedColor": "Kleur bijgewerkt naar  `{color}`",
+        "confirmChange": "Weet je zeker dat je je kleur wilt veranderen?"
+    },
+    "setlevel": {
+        "errors": {
+            "noUser": "U moet een gebruiker een niveau geven.",
+            "noBots": "U kunt geen bots instellen.",
+            "cantSet": "U kunt het niveau van {users} niet bewerken",
+            "maxLevel": "U kunt het niveau niet hoger instellen dan 100. (Gebruikers kunnen echter boven niveau 100 verdienen)"
+        },
+        "editedLevel": "Instellen {user}'s niveau op `{level}`."
+    },
+    "resetlevel": {
+        "errors": {
+            "noUsesr": "U moet een gebruiker een niveau geven.",
+            "noBots": "You cannot set a bots level."
+        },
+        "confirm": {
+            "resetEveryone": "Weet je zeker dat je het niveau van iedereen in {guild} wilt resetten? Deze promotie is onomkeerbaar.",
+            "resetLeft": "Weet je zeker dat je iedereen wilt verlaten die is vertrokken? Deze promotie is onomkeerbaar.",
+            "resetUser": "Weet u zeker dat u het niveau van {user} opnieuw wilt instellen? Deze promotie is onomkeerbaar."
+        },
+        "canceled": "De bewerking is geannuleerd."
+    },
+    "rewards": {
+        "noRewards": "{guild} heeft geen beloningen ingesteld.",
+        "rewards": "Beloningen voor **{guild}**:"
+    },
+    "purge": {
+        "errors": {
+            "invalidAmount": "U moet opgeven hoeveel berichten u wilt verwijderen.",
+            "noUser": "U moet een geldige gebruiker opgeven.",
+            "noContain": "U moet een woord of zin invoeren om op te filteren."
+        },
+        "success": {
+            "default": "Zuivering {amount} berichten.",
+            "user": "Zuivering {amount} berichten door {user}.",
+            "bot": "Zuivering {amount} bot berichten.",
+            "embeds": "Zuivering {amount} berichten insluiten.",
+            "contains": "Zuivering {amount} berichten die bevatten `{phrase}`."
+        }
+    },
+    "ban": {
+        "errors": {
+            "noUser": "U moet een te blokkeren gebruiker opgeven.",
+            "cantBan": "Ik kan {user} niet verbieden.",
+            "cantPunishUser": "U kunt {user} niet verbieden."
+        },
+        "successfullyBanned": "{user} is verbannen."
+    },
+    "slowmode": {
+        "errors": {
+            "invalidTime": "{input} is een ongeldige tijd! De langzame modus kan tot 6 uur duren.",
+            "cantEdit": "Ik kan de slowmode van <#{channel}> niet bewerken."
+        },
+        "successfullyEdited": "De langzame modus is gewijzigd van <#{channel}> in {duration}.",
+        "successfullyRemoved": "De slowmode voor <#{channel}> verwijderd."
+    },
+    "lock": {
+        "errors": {
+            "cantLock": "Ik kan <#{channel}> niet vergrendelen.",
+            "alreadyLocked": "<#{channel}> is al vergrendeld."
+        },
+        "successfullyLockedChannel": "<#{channel}> is vergrendeld."
+    },
+    "unlock": {
+        "errors": {
+            "notLocked": "<#{channel}> is niet vergrendeld.",
+            "cantUnlock": "Ik kan <#{channel}> niet ontgrendelen."
+        },
+        "successfullyUnlockedChannel": "<#{channel}> is ontgrendeld."
+    },
+    "kick": {
+        "errors": {
+            "noUser": "U moet een gebruiker opgeven om te schoppen.",
+            "cantKick": "Ik kan {user} niet schoppen.",
+            "cantPunishUser": "Je kunt {user} niet schoppen."
+        },
+        "successfullyKicked": "{user} is geschopt."
+    },
+    "mute": {
+        "errors": {
+            "noUser": "U moet een gebruiker bieden om te dempen.",
+            "cantMute": "Ik kan {user} niet dempen.",
+            "cantPunishUser": "U kunt {user} niet dempen.",
+            "alreadyMuted": "{user} is al gedempt."
+        },
+        "successfullyMuted": "{user} is gedempt.",
+        "successfullyMutedForDuration": "{user} is gedempt voor {duration}."
+    },
+    "unmute": {
+        "errors": {
+            "noUser": "U moet een geldige gebruiker opgeven om te unmute.",
+            "cantUnmute": "Ik kan het dempen van {user} niet ongedaan maken.",
+            "cantPunishUser": "U kunt het dempen van {user} niet ongedaan maken.",
+            "notMuted": "{user} is niet gedempt."
+        },
+        "successfullyUnmuted": "{user} is ongedaan gemaakt."
+    },
+    "warn": {
+        "errors": {
+            "noUser": "U moet een gebruiker waarschuwen.",
+            "cantWarn": "Ik kan {user} niet waarschuwen.",
+            "cantPunishUser": "U kunt {user} niet waarschuwen.",
+            "noReason": "U moet een gebruiker opgeven."
+        },
+        "successfullyWarned": "{user} is gewaarschuwd.",
+        "warnMessage": "Je werd binnen gewaarschuwd {guild}.\n\n{reason}"
+    },
+    "history": {
+        "errors": {
+            "noUser": "U moet een gebruiker opgeven om de geschiedenis op te zoeken.",
+            "noHistory": "{user} heeft geen geschiedenis.",
+            "noCase": "`{case}` is een ongeldige case.",
+            "cantRevokeCase": "U kunt deze zaak niet intrekken."
+        },
+        "types": {
+            "ban": "verboden",
+            "kick": "Kicked",
+            "mute": "Gedempt",
+            "unmute": "Niet gedempt",
+            "unban": "Niet verbannen",
+            "warn": "gewaarschuwd"
+        },
+        "usersHistory": "Geschiedenis van {user}",
+        "overall": "{warns} warning(s), {mutes} mute(s), {kicks} kick(s), {bans} ban(s)",
+        "specificCase": "Moderator: `{moderator}`\nReason: {reason}\n\nRevoke the case: `{prefix}history {case} revoke`\nUpdate the case: `{prefix}case {case} New Reason`",
+        "revokedCase": "Revoked case `#{case}`.",
+        "resetHistory": "Revoked `{cases}` cases from {user}"
+    },
+    "tempban": {
+        "errors": {
+            "noUser": "U moet een gebruiker een tijdelijk verbod aanbieden.",
+            "cantBan": "Ik kan {user} niet tijdelijk verbannen.",
+            "cantPunishUser": "U kunt {user} niet tijdelijk verbannen.",
+            "noTime": "U moet opgeven hoe lang ze worden verbannen."
+        },
+        "successfullyBanned": "{user} is tijdelijk verbannen voor {duration}."
+    },
+    "reason": {
+        "noCase": "U moet een case opgeven die moet worden bijgewerkt.",
+        "noCaseFound": "Ik kon geen case vinden bij het zoeken naar: `#{case}`",
+        "noReason": "U moet een nieuwe reden opgeven.",
+        "youCantEdit": "U kunt case `#{case}` niet bewerken.",
+        "updatedCase": "Bijgewerkte case #{case}"
+    },
+    "leaderboard": {
+        "onlineLeaderboard": "{name}'s Scorebord: https://arcanebot.xyz/leaderboard/{id}",
+        "title": "Scorebord voor {guild}"
+    },
+    "redeem": {
+        "notSupportServer": "Deze opdracht kan alleen worden gebruikt in de officiële ondersteuningsserver. https://discord.gg/467YPjF",
+        "notEligible": "U moet voordelen kopen op onze Patreon (https://patreon.com/arcanebot) om deze opdracht te gebruiken.\n\n↳ Als u premium hebt gekocht, controleer dan of u uw discord-account aan patreon hebt gekoppeld.\n↳ Als u deze instelling niet kunt krijgen, DM `ImDarkDiamond#0256`",
+        "redeemed": {
+            "tier1": "Bedankt voor het aanschaffen van `Tier 1`. Uw extra's blijven van kracht totdat u stopt met betalen voor Tier 1. U kunt de extras inschakelen op **2** discord-servers.",
+            "tier12": "Bedankt voor het aanschaffen van `Tier 2`. Uw extra's blijven van kracht totdat u stopt met betalen voor Tier 2. U kunt de extras inschakelen op **5** discord-servers.",
+            "tier3": "Bedankt voor het aanschaffen van `Tier 3`. Uw extra's blijven van kracht totdat u stopt met betalen voor Tier 3. U kunt de extras inschakelen op **15** discord-servers. "
+        }
+    },
+    "automod": {
+        "automod": "Instellingen voor automatische moderatie",
+        "currentConfig": "Spam: `{spam}`\nUitnodiging: `{invite}`\nZin: `{phrase}`\nGevloek: `{profanity}`\nInval: `{raid}`\n\nLogs: {logs}",
+        "invalidOption": "U moet een geldige instelling opgeven om te bewerken. `spam, uitnodiging, zin, gevloek, inval, or logs`",
+        "spam": {
+            "invalidArg": "Spam kan `waar of onwaar` zijn. Voorbeeld: `{prefix} automod spam true`.",
+            "enabled": "Spampreventie is ingeschakeld.",
+            "disabled": "Spampreventie is uitgeschakeld."
+        },
+        "invite": {
+            "invalidArg": "Uitnodigingen kunnen 'waar of onwaar' zijn. Voorbeeld: `{prefix} automod invite true`.",
+            "enabled": "Uitnodigingspreventie is ingeschakeld.",
+            "disabled": "Voorkomen uitnodiging is uitgeschakeld."
+        },
+        "phrase": {
+            "invalidArg": "Zin kan 'waar of onwaar' zijn. Voorbeeld: `{prefix} automod zin true`.",
+            "enabled": "Zin verwijderen is ingeschakeld.",
+            "disabled": "Zin verwijderen is uitgeschakeld."
+        }
+    },
+    "vote": "Je kunt op Arcane stemmen door naar <https://arcanebot.xyz/vote> te gaan. Dank je!",
+    "support": "U kunt hulp krijgen bij Arcane door lid te worden van onze ondersteuningsserver. https://discord.gg/467YPjF",
+    "help": {
+        "moreHelp": "Hier is een lijst van al mijn commandos. Je kunt de {guild} instellingen hier bewerken. Als u ondersteuning nodig heeft, kunt u lid worden van onze [discord](https://discord.gg/467YPjF).",
+        "invalidCommand": "`{command} is een ongeldige opdracht."
+    },
+    "invite": "U kunt Arcane uitnodigen door <https://arcanebot.xyz/invite> te bezoeken.",
+    "serverinfo": {
+        "footer": "ID: {id}",
+        "overview": "Overzicht",
+        "overviewData": "Server regio: `{region}`\nEigenaar: `{owner}`\nBoosts: `{boosts}/20` (Tier {tier})",
+        "info": "Rollen: `{roles}`\nKanalen: `{channels}` - Tekst: `{text}` - Spraak: `{voice}`\nLeden: `{members}`"
+    },
+    "userinfo": {
+        "roles": "Rollen ({total} total)",
+        "id": "ID",
+        "joined": "Verbonden met server",
+        "joinedDiscord": "Toetreden tot Discord",
+        "none": "Niemendal",
+        "tooMany": "Te veel rollen om weer te geven."
+    },
+    "selfrole": {
+        "selfroles": "Here are all the self-roles for **{guild}**:\n{roles}",
+        "noRoles": "Er zijn geen zelfrollen ingesteld in {guild}",
+        "invalidRole": "`{name}` is een ongeldige rol.",
+        "cantAdd": "Ik kan je `{role}` niet geven.",
+        "cantRemove": "Ik kan de `{role}` niet verwijderen.",
+        "addedRole": "Met succes `{role}` toegevoegd aan <@{user}>",
+        "removedRole": "Met succes verwijderd uit `{role}` van <@{user}>"
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "errors": {
+        "iAmMissingPermissions": "I am missing permissions. To run this command I need the `{perm}` permission."
+    },
+    "music": {
+        "errors": {
+            "noChannel": "You must be in a voice channel.",
+            "notPlaying": "There is no music playing.",
+            "onlyDJ": "You must have the DJ role to use this command."
+        },
+        "kickedFromChannel": "I was kicked from the Voice channel. Stopping the music and deleting the queue.",
+        "noListeners": "No members remain in `{channel}`, so I have paused the music.",
+        "left": "Disconnected from `{channel}` because it has been inactive for 5 minutes."
+    },
+    "moderation": {
+        "errors": {
+            "missingPermissions": "You are not able to use moderation commands. You require the `{perm}` permission.",
+            "cantPunishSelf": "I'm not sure you want to do that.",
+            "cantPunishOwner": "You cannot punish the server owner.",
+            "cantPunishMe": "I refuse to punish myself."
+        }
+    },
+    "autoMod": {
+        "spam": {
+            "warn": "{user}, slow down!. Please stop spamming.",
+            "log": {
+                "title": "Spam Detected"
+            }
+        },
+        "profanity": {
+            "warn": "{user}, please keep swearing to a minimum! (`{filteredPhrase}`)",
+            "log": {
+                "title": "Profanity Detected",
+                "content": "Message Content"
+            }
+        },
+        "phrase": {
+            "warn": "{user}, please do not used blacklisted words!",
+            "log": {
+                "title": "Blacklisted Words Detected",
+                "word": "Word"
+            }
+        },
+        "invite": {
+            "warn": "{user}, invites are not allowed!",
+            "log": {
+                "title": "Invite Detected",
+                "invite": "Invite"
+            }
+        },
+        "raid": {
+            "log": {
+                "title": "Raid Detected",
+                "accounts": "Accounts",
+                "possible": "`{accounts}` users have been detected to be participating in a raid."
+            }
+        }
+    },
+    "modLogs": {
+        "action": {
+            "kick": "Kick - Case #{case}",
+            "ban": "Ban - Case #{case}",
+            "tempban": "Tempban - Case #{case}",
+            "unban": "Unban - Case #{case}"
+        },
+        "user": "User",
+        "channel": "Channel",
+        "moderator": "Moderator",
+        "reason": "Reason",
+        "time": "Duration",
+        "noReasonedCase": "Moderator run `{prefix}reason {case} <reason>`" 
+    },
+    "counters": {
+        "users": "Users: {count}",
+        "members": "Members: {count}",
+        "bots": "Bots: {count}"
+    },
+    "restrictions": {
+        "blacklist": {
+            "blacklistedChannel": "You cannot run `{command}` in {channel}.",
+            "blacklistedRole": "You cannot run `{command}` because you have a blacklisted role."
+        }
+    },
+    "logging": {
+        "messages": {
+            "messageDeleted": "Message deleted in <#{channel}>",
+            "content": "Content",
+            "bulkDelete": "**{number}** messages were deleted in <#{channel}>",
+            "messageEdited": "Message edited in <#{channel}>",
+            "oldMessage": "Old Message",
+            "newMessage": "New Message"
+        }
+    },
+    "settings": {
+        "enabled": "Enabled",
+        "disabled": "Disabled"
+    },
+    "reactionRoles": {
+        "addedRole": "Successfully gave you the `{role}` role in {guild}.",
+        "removedRole": "Successfully removed the `{role}` role in {guild}. "
+    },
+    "members": "Members"
+}
