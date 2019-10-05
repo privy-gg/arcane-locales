@@ -291,5 +291,8 @@
         "cantRemove": "`{role}` لا استطيع حذف هذا الرول",
         "addedRole": "<@{user}> الى العضو `{role}` تم بنجاح اضافة الرول ",
         "removedRole": "<@{user}> الى العضو `{role}` تم بنجاح حذف الرول "
+    },
+    "dashboard": {
+        "linkToDashboard": "You can edit {guild}'s settings [here]({linkToDashboard})."
     }
 }

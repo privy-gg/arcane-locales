@@ -291,5 +291,8 @@
         "cantRemove": "Я не могу удалить `{role}`.",
         "addedRole": "Успешно добавлено `{role}` для <@{user}>",
         "removedRole": "Успешно убрано `{role}` в <@{user}>"
+    },
+    "dashboard": {
+        "linkToDashboard": "You can edit {guild}'s settings [here]({linkToDashboard})."
     }
 }

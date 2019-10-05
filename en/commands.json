@@ -265,7 +265,7 @@
     "vote": "You can vote for Arcane by visiting <https://arcanebot.xyz/vote>. Thank you!",
     "support": "You can get help with Arcane by joining our support server. https://discord.gg/467YPjF",
     "help": {
-        "moreHelp": "Here is a list of all my commands. You can edit {guild}'s settings here. If you need support you can join our [discord](https://discord.gg/467YPjF).",
+        "moreHelp": "Here is a list of all my commands. You can edit {guild}'s settings [here]({dashboardLink}). If you need support you can join our [discord](https://discord.gg/467YPjF).",
         "invalidCommand": "`{command}` is an invalid command."
     },
     "invite": "You can invite Arcane by visiting <https://arcanebot.xyz/invite>.",
@@ -291,5 +291,8 @@
         "cantRemove": "I cant remove the `{role}`.",
         "addedRole": "Succesfully added `{role}` to <@{user}>",
         "removedRole": "Succesfully removed `{role}` from <@{user}>"
+    },
+    "dashboard": {
+        "linkToDashboard": "You can edit {guild}'s settings [here]({linkToDashboard})."
     }
 }

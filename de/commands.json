@@ -291,5 +291,8 @@
         "cantRemove": "Ich kann dir `{role}` nicht wegnehmen.",
         "addedRole": "Du hast nun die Rolle `{role}`, <@{user}>",
         "removedRole": "Ich hab dir nun `{role}` genommen, <@{user}>"
+    },
+    "dashboard": {
+        "linkToDashboard": "You can edit {guild}'s settings [here]({linkToDashboard})."
     }
 }
