@@ -1,48 +1,48 @@
 {
     "errors": {
-        "iAmMissingPermissions": "Faltam permissões. Para executar este comando, preciso da permissão `{perm}`."
+        "iAmMissingPermissions": "Faltam permissï¿½es. Para executar este comando, preciso da permissï¿½o `{perm}`."
     },
     "music": {
         "errors": {
-            "noChannel": "Você precisa estar em um canal de voz.",
-            "notPlaying": "Não tem música tocando.",
-            "onlyDJ": "Você precisa ter a função de DJ para usar este comando."
+            "noChannel": "Vocï¿½ precisa estar em um canal de voz.",
+            "notPlaying": "Nï¿½o tem mï¿½sica tocando.",
+            "onlyDJ": "Vocï¿½ precisa ter a funï¿½ï¿½o de DJ para usar este comando."
         },
-        "kickedFromChannel": "Fui removido do canal de voz. Vou parar a música e apagar a fila.",
-        "noListeners": "Nenhum membro permanece no `{channel}`, então eu pausei a música.",
+        "kickedFromChannel": "Fui removido do canal de voz. Vou parar a mï¿½sica e apagar a fila.",
+        "noListeners": "Nenhum membro permanece no `{channel}`, entï¿½o eu pausei a mï¿½sica.",
         "left": "Eu desconectei do `{channel}` porque ficou inativo por mais de 5 minutos."
     },
     "moderation": {
         "errors": {
-            "missingPermissions": "Você não pode usar comandos de moderação. Você precisa da permissão `{perm}`.",
+            "missingPermissions": "Vocï¿½ nï¿½o pode usar comandos de moderaï¿½ï¿½o. Vocï¿½ precisa da permissï¿½o `{perm}`.",
             "cantPunishSelf": "Por que vai se punir?",
-            "cantPunishOwner": "Você não pode punir o dono do servidor.",
+            "cantPunishOwner": "Vocï¿½ nï¿½o pode punir o dono do servidor.",
             "cantPunishMe": "Eu me recuso a me punir."
         }
     },
     "autoMod": {
         "spam": {
-            "warn": "{user}, mais devagar!. Pare de enviar mensagens tão rápidas.",
+            "warn": "{user}, mais devagar!. Pare de enviar mensagens tï¿½o rï¿½pidas.",
             "log": {
-                "title": "Detectado o envio de mensagens muito rápido"
+                "title": "Detectado o envio de mensagens muito rï¿½pido"
             }
         },
         "profanity": {
-            "warn": "{user}, continue jurando o mínimo possível! (`{filteredPhrase}`)",
+            "warn": "{user}, continue jurando o mï¿½nimo possï¿½vel! (`{filteredPhrase}`)",
             "log": {
-                "title": "Profanação detectada",
-                "content": "Conteúdo da mensagem"
+                "title": "Profanaï¿½ï¿½o detectada",
+                "content": "Conteï¿½do da mensagem"
             }
         },
         "phrase": {
-            "warn": "{user}, não use palavras na lista negra!",
+            "warn": "{user}, nï¿½o use palavras na lista negra!",
             "log": {
                 "title": "Palavras na lista negra detectadas",
                 "word": "Palavra"
             }
         },
         "invite": {
-            "warn": "{usuário}, convites para servidores não são permitidos!",
+            "warn": "{usuï¿½rio}, convites para servidores nï¿½o sï¿½o permitidos!",
             "log": {
                 "title": "Um convite para um servidor detectado",
                 "invite": "Um convite para um servidor"
@@ -50,9 +50,9 @@
         },
         "raid": {
             "log": {
-                "title": "Invasão detectada",
+                "title": "Invasï¿½o detectada",
                 "accounts": "A contas",
-                "possible": "Detectamos que `{accounts}` participou da invasão"
+                "possible": "Detectamos que `{accounts}` participou da invasï¿½o"
             }
         }
     },
@@ -63,12 +63,12 @@
             "tempban": "Tempobanir - Caso #{case}",
             "desbanir": "Unban - Caso #{case}"
         },
-        "user": "Usuário",
+        "user": "Usuï¿½rio",
         "channel": "Canal",
         "moderator": "Moderador",
         "reason": "Motivo",
-        "time": "Duração",
-        "noReasonedCase": "Moderador, usa`{prefix}Motivo {case} <reason>`" 
+        "time": "Duraï¿½ï¿½o",
+        "noReasonedCase": "Moderador, usa`{prefix}Motivo {case} <reason>`"
     },
     "counters": {
         "users": "Users: {count}",
@@ -77,14 +77,14 @@
     },
     "restrictions": {
         "blacklist": {
-            "blacklistedChannel": "Você não pode executar o comando `{command}` no {channel}.",
-            "blacklistedRole": "Você não pode executar `{command}` porque você tem uma função na lista negra."
+            "blacklistedChannel": "Vocï¿½ nï¿½o pode executar o comando `{command}` no {channel}.",
+            "blacklistedRole": "Vocï¿½ nï¿½o pode executar `{command}` porque vocï¿½ tem uma funï¿½ï¿½o na lista negra."
         }
     },
     "logging": {
         "messages": {
             "messageDeleted": "A mensagem foi deletado em <# {channel}>",
-            "content": "Conteúdo",
+            "content": "Conteï¿½do",
             "bulkDelete": "** {number} ** mensagens foram delatadas em <# {channel}>",
             "messageEdited": "Mensagem editada em <# {channel}>",
             "oldMessage": "Mensagem antiga",
@@ -96,8 +96,16 @@
         "disabled": "Desativado"
     },
     "reactionRoles": {
-        "addedRole": "Eu dei a você o papel `{role}` em {guild}.",
+        "addedRole": "Eu dei a vocï¿½ o papel `{role}` em {guild}.",
         "removedRole": "Eu removi sua papel `{role}` em {guild}. "
     },
-    "members": "Membros"
+    "members": "Membros",
+    "tickets": {
+        "notSetup": "{guild} has not setup tickets."
+    },
+    "suggestions": {
+        "notSetup": "{guild} has not setup suggestions.",
+        "invalidSuggestion": "{id} is not a suggestion.",
+        "noFeedback": "No feedback was provided for the suggestion"
+    }
 }

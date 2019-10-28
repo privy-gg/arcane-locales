@@ -68,7 +68,7 @@
         "moderator": "Модератор",
         "reason": "Причина",
         "time": "Продолжительность",
-        "noReasonedCase": "Модератор используй `{prefix}reason {case} <reason>`" 
+        "noReasonedCase": "Модератор используй `{prefix}reason {case} <reason>`"
     },
     "counters": {
         "users": "Пользователей: {count}",
@@ -99,5 +99,13 @@
         "addedRole": "Успешно выдана роль `{role}`  на сервере {guild}.",
         "removedRole": "Успешно убрана роль `{role}` на сервере {guild}. "
     },
-    "members": "Участники"
+    "members": "Участники",
+    "tickets": {
+        "notSetup": "{guild} has not setup tickets."
+    },
+    "suggestions": {
+        "notSetup": "{guild} has not setup suggestions.",
+        "invalidSuggestion": "{id} is not a suggestion.",
+        "noFeedback": "No feedback was provided for the suggestion"
+    }
 }

@@ -68,7 +68,7 @@
         "moderator": "Moderator",
         "reason": "Reason",
         "time": "Duration",
-        "noReasonedCase": "Moderator run `{prefix}reason {case} <reason>`" 
+        "noReasonedCase": "Moderator run `{prefix}reason {case} <reason>`"
     },
     "counters": {
         "users": "Users: {count}",
@@ -99,5 +99,13 @@
         "addedRole": "Successfully gave you the `{role}` role in {guild}.",
         "removedRole": "Successfully removed the `{role}` role in {guild}. "
     },
-    "members": "Members"
+    "members": "Members",
+    "tickets": {
+        "notSetup": "{guild} has not setup tickets."
+    },
+    "suggestions": {
+        "notSetup": "{guild} has not setup suggestions.",
+        "invalidSuggestion": "{id} is not a suggestion.",
+        "noFeedback": "No feedback was provided for the suggestion"
+    }
 }

@@ -52,7 +52,7 @@
             "log": {
                 "title": "تم تسجيل حالة تخريب",
                 "accounts": "حسابات المخربين",
-                "possible":  "تم تسجيلهم كمشاركين في عملية تخريب محتملة . `{accounts}`"
+                "possible": "تم تسجيلهم كمشاركين في عملية تخريب محتملة . `{accounts}`"
             }
         }
     },
@@ -68,7 +68,7 @@
         "moderator": "المشرف",
         "reason": "السبب",
         "time": "المدة",
-        "noReasonedCase": "`{prefix}reason {case} <reason>` مشرف قد استدعا الامر " 
+        "noReasonedCase": "`{prefix}reason {case} <reason>` مشرف قد استدعا الامر "
     },
     "counters": {
         "users": "{count} : تعداد المستخدمين ",
@@ -99,5 +99,13 @@
         "addedRole": "{guild} في السيرفر `{role}` تم اعطائك الرول ",
         "removedRole": "{guild}منك في السيرفر `{role}` تم حذف الرول  "
     },
-    "members": "الاعضاء"
+    "members": "الاعضاء",
+    "tickets": {
+        "notSetup": "{guild} has not setup tickets."
+    },
+    "suggestions": {
+        "notSetup": "{guild} has not setup suggestions.",
+        "invalidSuggestion": "{id} is not a suggestion.",
+        "noFeedback": "No feedback was provided for the suggestion"
+    }
 }

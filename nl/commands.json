@@ -294,5 +294,43 @@
     },
     "dashboard": {
         "linkToDashboard": "You can edit {guild}'s settings [here]({linkToDashboard})."
+    },
+    "create": {
+        "ticketAlreadyCreated": "You already have a ticket. View it here: <#{channel}>",
+        "createdTicket": "Created a ticket! View your ticket here: <#{channel}>",
+        "createdPing": "Support will be in touch with you as soon as possible. In the meantime tell us about your issue!\n\nYou can close the ticket anytime by running `{prefix}close`",
+        "logs": "<@{user}> `({user})` created a ticket <#{channel}> `({channelName})`"
+    },
+    "close": {
+        "notYourTicket": "You cannot close this ticket.",
+        "tickedClosedDM": "Your ticket has been closed. You can view the transcript here:",
+        "logs": "<@{user}> closed the ticket {channel}"
+    },
+    "tickets": {
+        "title": "{guild} Ticket Stats",
+        "open": "Open",
+        "closed": "Closed",
+        "openTickets": "Open Tickets"
+    },
+    "suggest": {
+        "missingSuggestion": "You need to provide a suggestion.",
+        "sent": "Submitted your suggestion!",
+        "suggestionNumber": "Suggestion #{number}",
+        "suggestedBy": "Suggested by {user}"
+    },
+    "accept": {
+        "missingSuggestion": "You need to provide a suggestion ID to approve it.",
+        "approvedSuggestion": "Approved suggestion #{id}.",
+        "approvedBy": "Accepted by {user}"
+    },
+    "deny": {
+        "missingSuggestion": "You need to provide a suggestion ID to deny it.",
+        "deniedSuggestion": "Denied suggestion #{id}.",
+        "deniedBy": "Denied by {user}"
+    },
+    "consider": {
+        "missingSuggestion": "You need to provide a suggestion ID to consider it.",
+        "consideredSuggestion": "Considered suggestion #{id}.",
+        "consideredBy": "Considered by {user}"
     }
 }

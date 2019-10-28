@@ -68,7 +68,7 @@
         "moderator": "Moderator",
         "reason": "Reden",
         "time": "Looptijd",
-        "noReasonedCase": "Moderator uitvoeren `{prefix}reason {case} <reason>`" 
+        "noReasonedCase": "Moderator uitvoeren `{prefix}reason {case} <reason>`"
     },
     "counters": {
         "users": "Gebruikers: {count}",
@@ -99,5 +99,13 @@
         "addedRole": "Je hebt met succes de `{role}` rol erin gekregen {guild}.",
         "removedRole": "Met succes de verwijderd `{role}` rol erin gekregen {guild}. "
     },
-    "members": "Leden"
+    "members": "Leden",
+    "tickets": {
+        "notSetup": "{guild} has not setup tickets."
+    },
+    "suggestions": {
+        "notSetup": "{guild} has not setup suggestions.",
+        "invalidSuggestion": "{id} is not a suggestion.",
+        "noFeedback": "No feedback was provided for the suggestion"
+    }
 }
