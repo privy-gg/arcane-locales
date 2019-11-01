@@ -252,9 +252,9 @@
             "disabled": "Защита от спама отключена."
         },
         "invite": {
-            "invalidArg": "Invites can be `true or false`. Пример: `{prefix}automod invite true`.",
-            "enabled": "Invite prevention has been enabled.",
-            "disabled": "Invite prevention has been disabled."
+            "invalidArg": "Приглашения могут быть `true or false`. Пример: `{prefix}automod invite true`.",
+            "enabled": "Предотвращение приглашения было включено.",
+            "disabled": "Предотвращение приглашения было отключено."
         },
         "phrase": {
             "invalidArg": "Приглашения могут быть `истинными или ложными`. Пример: `{prefix}automod phrase true`.",
@@ -293,44 +293,44 @@
         "removedRole": "Успешно убрано `{role}` в <@{user}>"
     },
     "dashboard": {
-        "linkToDashboard": "You can edit {guild}'s settings [here]({linkToDashboard})."
+        "linkToDashboard": "Вы можете редактировать {guild}'s настройки [here]({linkToDashboard})."
     },
     "create": {
-        "ticketAlreadyCreated": "You already have a ticket. View it here: <#{channel}>",
-        "createdTicket": "Created a ticket! View your ticket here: <#{channel}>",
-        "createdPing": "Support will be in touch with you as soon as possible. In the meantime tell us about your issue!\n\nYou can close the ticket anytime by running `{prefix}close`",
-        "logs": "<@{user}> `({user})` created a ticket <#{channel}> `({channelName})`"
+        "ticketAlreadyCreated": "У вас уже есть билет. Посмотреть это здесь: <#{channel}>",
+        "createdTicket": "Создан тикет! Посмотрите свой билет здесь: <#{channel}>",
+        "createdPing": "Служба поддержки свяжется с вами в ближайшее время. А пока расскажите нам о своей проблеме!\n\nВы можете закрыть билет в любое время, запустив `{prefix}close`",
+        "logs": "<@{user}> `({user})` создал билет <#{channel}> `({channelName})`"
     },
     "close": {
-        "notYourTicket": "You cannot close this ticket.",
-        "tickedClosedDM": "Your ticket has been closed. You can view the transcript here:",
-        "logs": "<@{user}> closed the ticket {channel}"
+        "notYourTicket": "Вы не можете закрыть этот билет.",
+        "tickedClosedDM": "Ваш билет был закрыт. Вы можете просмотреть стенограмму здесь:",
+        "logs": "<@{user}> закрыл билет {channel}"
     },
     "tickets": {
-        "title": "{guild} Ticket Stats",
-        "open": "Open",
-        "closed": "Closed",
-        "openTickets": "Open Tickets"
+        "title": "{guild} Статистика билета",
+        "open": "Открыто",
+        "closed": "Закрыто",
+        "openTickets": "Открытые Билеты"
     },
     "suggest": {
-        "missingSuggestion": "You need to provide a suggestion.",
-        "sent": "Submitted your suggestion!",
-        "suggestionNumber": "Suggestion #{number}",
-        "suggestedBy": "Suggested by {user}"
+        "missingSuggestion": "Вы должны предоставить предложение.",
+        "sent": "Подали ваше предложение!",
+        "suggestionNumber": "Предложение #{number}",
+        "suggestedBy": "Предложено {user}"
     },
     "accept": {
-        "missingSuggestion": "You need to provide a suggestion ID to approve it.",
-        "approvedSuggestion": "Approved suggestion #{id}.",
-        "approvedBy": "Accepted by {user}"
+        "missingSuggestion": "Вам нужно предоставить ID предложения, чтобы одобрить его.",
+        "approvedSuggestion": "Утвержденное предложение #{id}.",
+        "approvedBy": "Принял {user}"
     },
     "deny": {
-        "missingSuggestion": "You need to provide a suggestion ID to deny it.",
-        "deniedSuggestion": "Denied suggestion #{id}.",
-        "deniedBy": "Denied by {user}"
+        "missingSuggestion": "Вы должны предоставить иID предложения, чтобы отрицать его.",
+        "deniedSuggestion": "Отклоненное предложение #{id}.",
+        "deniedBy": "Отказал {user}"
     },
     "consider": {
-        "missingSuggestion": "You need to provide a suggestion ID to consider it.",
-        "consideredSuggestion": "Considered suggestion #{id}.",
-        "consideredBy": "Considered by {user}"
+        "missingSuggestion": "Вам необходимо предоставить ID предложения, чтобы рассмотреть его.",
+        "consideredSuggestion": "Рассмотренное предложение #{id}.",
+        "consideredBy": "Рассматрел {user}"
     }
 }

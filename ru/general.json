@@ -101,11 +101,11 @@
     },
     "members": "Участники",
     "tickets": {
-        "notSetup": "{guild} has not setup tickets."
+        "notSetup": "{guild} не настроил билеты."
     },
     "suggestions": {
-        "notSetup": "{guild} has not setup suggestions.",
-        "invalidSuggestion": "{id} is not a suggestion.",
-        "noFeedback": "No feedback was provided for the suggestion"
+        "notSetup": "{guild} не имеет предложений по настройке.",
+        "invalidSuggestion": "{id} это не предложение.",
+        "noFeedback": "Отзыв о предложении не предоставлен"
     }
 }
