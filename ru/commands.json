@@ -332,5 +332,10 @@
         "missingSuggestion": "Вам необходимо предоставить ID предложения, чтобы рассмотреть его.",
         "consideredSuggestion": "Рассмотренное предложение #{id}.",
         "consideredBy": "Рассматрел {user}"
+    },
+    "remind": {
+        "noTime": "You need to provide how long I should remind you in.",
+        "reminderSet": "I will remind in in {duration}.",
+        "reminderNotification": "You asked to be reminded of \"{reminder}\""
     }
 }

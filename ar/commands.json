@@ -332,5 +332,10 @@
         "missingSuggestion": "You need to provide a suggestion ID to consider it.",
         "consideredSuggestion": "Considered suggestion #{id}.",
         "consideredBy": "Considered by {user}"
+    },
+    "remind": {
+        "noTime": "You need to provide how long I should remind you in.",
+        "reminderSet": "I will remind in in {duration}.",
+        "reminderNotification": "You asked to be reminded of \"{reminder}\""
     }
 }
