@@ -272,7 +272,7 @@
     "serverinfo": {
         "footer": "الايدي: {id}",
         "overview": "معلومات عامة",
-        "overviewData": "`{region}` : منطقة السيرفر\n`{owner}` : المالك\n`{boosts}/20 : المعززات` (Tier {tier})",
+        "overviewData": "`{region}` : منطقة السيرفر\n`{owner}` : المالك\n`{boosts}/30 : المعززات` (Tier {tier})",
         "info": "`{roles}` : الرولز\n`{text}` : الكتابية / `{voice}` : الصوتية / `{channels}` : الغرف\n`{members}` : الاعضاء"
     },
     "userinfo": {

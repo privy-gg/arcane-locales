@@ -272,7 +272,7 @@
     "serverinfo": {
         "footer": "ID: {id}",
         "overview": "Обзор",
-        "overviewData": "Регион сервера: `{region}`\nВладелец: `{owner}`\nБустов: `{boosts}/20` (Tier {tier})",
+        "overviewData": "Регион сервера: `{region}`\nВладелец: `{owner}`\nБустов: `{boosts}/30` (Tier {tier})",
         "info": "Ролей: `{roles}`\nКаналов: `{channels}` - Текстовых: `{text}` - Голосовых: `{voice}`\nУчастников: `{members}`"
     },
     "userinfo": {

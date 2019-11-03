@@ -272,7 +272,7 @@
     "serverinfo": {
         "footer": "ID: {id}",
         "overview": "Allgemein",
-        "overviewData": "Server-Region: `{region}`\nBesitzer: `{owner}`\nBoosts: `{boosts}/20` (Tier {tier})",
+        "overviewData": "Server-Region: `{region}`\nBesitzer: `{owner}`\nBoosts: `{boosts}/30` (Tier {tier})",
         "info": "Rollen: `{roles}`\nKanäle: `{channels}` - Text: `{text}` - Voice: `{voice}`\nNutzer: `{members}`"
     },
     "userinfo": {
