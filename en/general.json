@@ -68,7 +68,17 @@
         "moderator": "Moderator",
         "reason": "Reason",
         "time": "Duration",
-        "noReasonedCase": "Moderator run `{prefix}reason {case} <reason>`"
+        "noReasonedCase": "Moderator run `{prefix}reason {case} <reason>`",
+        "minimal": {
+            "banNoDuration": "🚨 **{user}** (`{userid}`) was banned by **{moderator}**: `{reason}`",
+            "banWithDuration": "🚨 **{user}** (`{userid}`) was banned by **{moderator}** for **{duration}**: `{reason}`",
+            "unban": "🔧 **{user}** (`{userid}`) was unbanned by **{moderator}**: `{reason}`",
+            "kick": "👢 **{user}** (`{userid}`) was kicked by **{moderator}**: `{reason}`",
+            "muteNoDuration": "😶 **{user}** (`{userid}`) was muted by **{moderator}**: `{reason}`",
+            "muteWithDuration": "😶 **{user}** (`{userid}`) was muted by **{moderator}** for **{duration}**: `{reason}`",
+            "unmute": "😮 **{user}** (`{userid}`) was unmuted by **{moderator}**: `{reason}`",
+            "noReason": "No Reason"
+        }
     },
     "counters": {
         "users": "Users: {count}",
