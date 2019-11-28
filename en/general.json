@@ -70,14 +70,14 @@
         "time": "Duration",
         "noReasonedCase": "Moderator run `{prefix}reason {case} <reason>`",
         "minimal": {
-            "banNoDuration": "🚨 **{user}** (`{userid}`) was banned by **{moderator}**: `{reason}`",
-            "banWithDuration": "🚨 **{user}** (`{userid}`) was banned by **{moderator}** for **{duration}**: `{reason}`",
-            "unban": "🔧 **{user}** (`{userid}`) was unbanned by **{moderator}**: `{reason}`",
-            "kick": "👢 **{user}** (`{userid}`) was kicked by **{moderator}**: `{reason}`",
-            "muteNoDuration": "😶 **{user}** (`{userid}`) was muted by **{moderator}**: `{reason}`",
-            "muteWithDuration": "😶 **{user}** (`{userid}`) was muted by **{moderator}** for **{duration}**: `{reason}`",
-            "unmute": "😮 **{user}** (`{userid}`) was unmuted by **{moderator}**: `{reason}`",
-            "warn": "⚠️ **{user}** (`{userid}`) was warned by **{moderator}**: `{reason}`",
+            "banNoDuration": "🚨 `#{case}`: **{user}** (`{userid}`) was banned by **{moderator}**: `{reason}`",
+            "banWithDuration": "🚨 `#{case}`: **{user}** (`{userid}`) was banned by **{moderator}** for **{duration}**: `{reason}`",
+            "unban": "🔧 `#{case}`: **{user}** (`{userid}`) was unbanned by **{moderator}**: `{reason}`",
+            "kick": "👢 `#{case}`: **{user}** (`{userid}`) was kicked by **{moderator}**: `{reason}`",
+            "muteNoDuration": "😶 `#{case}`: **{user}** (`{userid}`) was muted by **{moderator}**: `{reason}`",
+            "muteWithDuration": "😶 `#{case}`: **{user}** (`{userid}`) was muted by **{moderator}** for **{duration}**: `{reason}`",
+            "unmute": "😮 `#{case}`: **{user}** (`{userid}`) was unmuted by **{moderator}**: `{reason}`",
+            "warn": "⚠️ `#{case}`: **{user}** (`{userid}`) was warned by **{moderator}**: `{reason}`",
             "noReason": "No Reason"
         }
     },
