@@ -77,6 +77,7 @@
             "muteNoDuration": "😶 **{user}** (`{userid}`) was muted by **{moderator}**: `{reason}`",
             "muteWithDuration": "😶 **{user}** (`{userid}`) was muted by **{moderator}** for **{duration}**: `{reason}`",
             "unmute": "😮 **{user}** (`{userid}`) was unmuted by **{moderator}**: `{reason}`",
+            "warn": "⚠️ **{user}** (`{userid}`) was warned by **{moderator}**: `{reason}`",
             "noReason": "No Reason"
         }
     },
