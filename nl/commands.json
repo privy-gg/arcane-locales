@@ -84,7 +84,8 @@
     "color": {
         "invalidColor": "U moet een geldige kleur of hex-code opgeven.",
         "updatedColor": "Kleur bijgewerkt naar  `{color}`",
-        "confirmChange": "Weet je zeker dat je je kleur wilt veranderen?"
+        "confirmChange": "Weet je zeker dat je je kleur wilt veranderen?",
+        "notPremium": "Background colors require you to be a premium user. Learn more at https://arcanebot.xyz/premium."
     },
     "setlevel": {
         "errors": {

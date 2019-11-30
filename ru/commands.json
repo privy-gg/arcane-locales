@@ -84,7 +84,8 @@
     "color": {
         "invalidColor": "Вам необходимо указать правильный цвет или шестнадцатеричный код.",
         "updatedColor": "Обновил свой цвет до `{color}`",
-        "confirmChange": "Вы уверены, что хотите изменить свой цвет?"
+        "confirmChange": "Вы уверены, что хотите изменить свой цвет?",
+        "notPremium": "Background colors require you to be a premium user. Learn more at https://arcanebot.xyz/premium."
     },
     "setlevel": {
         "errors": {

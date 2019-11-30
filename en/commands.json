@@ -84,7 +84,8 @@
     "color": {
         "invalidColor": "You need to provide a valid color or hex code.",
         "updatedColor": "Updated your color to `{color}`",
-        "confirmChange": "Are you sure you want to change your color?"
+        "confirmChange": "Are you sure you want to change your color?",
+        "notPremium": "Background colors require you to be premium. Learn more at https://arcanebot.xyz/premium."
     },
     "setlevel": {
         "errors": {
@@ -97,7 +98,7 @@
     },
     "resetlevel": {
         "errors": {
-            "noUsesr": "You need to provide a user to levelup.",
+            "noUsers": "You need to provide a user to levelup.",
             "noBots": "You cannot set a bots level."
         },
         "confirm": {
@@ -105,7 +106,8 @@
             "resetLeft": "Are you sure you want to reset everyone who has left? This action is irreversible.",
             "resetUser": "Are you sure you want to reset {user}'s level? This action is irreversible."
         },
-        "canceled": "Canceled the operation."
+        "canceled": "Canceled the operation.",
+        "done": "Finished resetting."
     },
     "rewards": {
         "noRewards": "{guild} has no rewards setup.",

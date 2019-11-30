@@ -84,7 +84,8 @@
     "color": {
         "invalidColor": "وجب توفير رمز صحيح لترميز HEX",
         "updatedColor": "`{color}` تم تحديث لونك الى",
-        "confirmChange": "هل انت متاكد من تغيير لونك?"
+        "confirmChange": "هل انت متاكد من تغيير لونك?",
+        "notPremium": "Background colors require you to be a premium user. Learn more at https://arcanebot.xyz/premium."
     },
     "setlevel": {
         "errors": {
