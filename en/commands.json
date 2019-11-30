@@ -78,7 +78,8 @@
         "footer": "{xp} more xp to levelup!",
         "voteBooster": {
             "hasVoted": "Vote Booster: **10%** `({timeRemaining} remaining)`",
-            "noVote": "Vote Booster: [Vote now for 10% boost](https://arcanebot.xyz/vote)"
+            "noVote": "Vote Booster: [Vote now for 10% boost](https://arcanebot.xyz/vote)",
+            "noVoteImage": "Vote Booster: Vote now for a 10% boost. https://arcanebot.xyz/vote"
         }
     },
     "color": {

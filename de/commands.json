@@ -78,7 +78,8 @@
         "footer": "{xp} bis zum nächsten Level!",
         "voteBooster": {
             "hasVoted": "Vote-Booster: **10%** `({timeRemaining} übrig)`",
-            "noVote": "Vote-Booster: [Stimme ab für einen 10% Boost](https://arcanebot.xyz/vote)"
+            "noVote": "Vote-Booster: [Stimme ab für einen 10% Boost](https://arcanebot.xyz/vote)",
+            "noVoteImage": "Vote Booster: Vote now for a 10% boost. https://arcanebot.xyz/vote"
         }
     },
     "color": {

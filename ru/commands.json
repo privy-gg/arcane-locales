@@ -78,7 +78,8 @@
         "footer": "{xp} больше опыта, чтобы повысить уровень!",
         "voteBooster": {
             "hasVoted": "Усилитель голосования: **10%** `({timeRemaining} осталось)`",
-            "noVote": "Усилитель голосования: [Проголосуйте сейчас за повышение на 10%](https://arcanebot.xyz/vote)"
+            "noVote": "Усилитель голосования: [Проголосуйте сейчас за повышение на 10%](https://arcanebot.xyz/vote)",
+            "noVoteImage": "Vote Booster: Vote now for a 10% boost. https://arcanebot.xyz/vote"
         }
     },
     "color": {

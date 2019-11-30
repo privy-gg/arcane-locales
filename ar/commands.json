@@ -78,7 +78,8 @@
         "footer": "من نقاط الخبرة لتتقدم في المستوى! {xp} يلزمك",
         "voteBooster": {
             "hasVoted": "**10%** : معزز التصويت`({timeRemaining} متبقي)`",
-            "noVote": " [Vote now for 10% boost](https://arcanebot.xyz/vote) : معزز التصويت "
+            "noVote": " [Vote now for 10% boost](https://arcanebot.xyz/vote) : معزز التصويت ",
+            "noVoteImage": "Vote Booster: Vote now for a 10% boost. https://arcanebot.xyz/vote"
         }
     },
     "color": {

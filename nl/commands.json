@@ -78,7 +78,8 @@
         "footer": "{xp} meer xp naar levelup!",
         "voteBooster": {
             "hasVoted": "Stem booster: **10%** `({timeRemaining} remaining)`",
-            "noVote": "Stem booster: [Stem nu voor een boost van 10%](https://arcanebot.xyz/vote)"
+            "noVote": "Stem booster: [Stem nu voor een boost van 10%](https://arcanebot.xyz/vote)",
+            "noVoteImage": "Vote Booster: Vote now for a 10% boost. https://arcanebot.xyz/vote"
         }
     },
     "color": {
