@@ -339,5 +339,38 @@
         "noTime": "You need to provide how long I should remind you in.",
         "reminderSet": "I will remind in in {duration}.",
         "reminderNotification": "You asked to be reminded of \"{reminder}\""
+    },
+    "embed": {
+        "noJSON": "You need to provide valid JSON for me to send. <https://embed.discord.website/>",
+        "noMessageID": "You need to provide the mesasge id of the embed in this channel.",
+        "cantFindMessage": "I cannot find the message `{id}`. Make sure you run the command in the channel the embed was posted in.",
+        "notMyMessage": "I cannot edit the message. I can only edit my messages.",
+        "editedMessage": "Successfully edited the message."
+    },
+    "reactionrole": {
+        "invalidChannel": "You need to provide a valid channel",
+        "invalidEmojiSelected": "{emoji} is already an emoji on the message you provided.",
+        "invalidRoleSelected": "{role} is already setup on the message you provided.",
+        "promptReaction": "React to this message with the reaction you want to use for the reaction role.",
+        "invalidEmoji": "Arcane only supports normal emojis. Custom emojis do not work yet. They will come in a few weeks. You can continue to react to the above message to continue.",
+        "timedOut": "Reaction role setup has been canceled. You took too long to choose a valid reaction.",
+        "attemptingCreation": "{emoji} will be used as the emoji for the reaction role. Give me a moment while I set everything up.",
+        "doneCreating": "Successfully created the reaction role!"
+    },
+    "type": {
+        "noType": "You need to provide a reaction role type.",
+        "noTypeExamples": "1. React to get a role and unreact to remove the role.\n2. React to add or remove the role. Your reaction will always be removed.\n3. Group locking. You can only have one reaction role from the message.\n ↳ **This will change all reaction roles on the message to be group locked.**\n4. Persistent roles. React to add the role. Unreacting will not remove the role.",
+        "noID": "You need to provide a reaction role ID. The ID is given when they are completely setup or in the `{prefix}list` command.",
+        "invalidID": "You need to provide a valid reaction role ID.",
+        "changingMultiple": "Changing multiple (group locked) reaction roles to `{type}`.",
+        "changed": "Changed `{id}`'s type to `{type}`."
+    },
+    "list": {
+        "removeReactionRole": "To remove a reaction role use the `{prefix}remove` command. Example: `{prefix}remove abc123`."
+    },
+    "remove": {
+        "noID": "You need to provide a reaction role ID. The ID is given when they are completely setup or in the `{prefix}list` command.",
+        "invalidID": "You need to provide a valid reaction role ID.",
+        "removedReactionRole": "Removed the reaction role from the message. You will need to remove my reaction manually."
     }
 }
