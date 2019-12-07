@@ -198,7 +198,7 @@
         "errors": {
             "noUser": "Вы должны предоставить пользователя, для просмотра истории.",
             "noHistory": "{user} не имеет истории",
-            "noCase": "`{case}` неверный случай",
+            "noCase": "No valid case or user provided",
             "cantRevokeCase": "Вы не можете отозвать это дело."
         },
         "types": {

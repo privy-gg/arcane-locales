@@ -198,7 +198,7 @@
         "errors": {
             "noUser": "Du musst einen Nutzer angeben, dessen Geschichte nachgeschaut werden sollte.",
             "noHistory": "{user} hat keine Geschichte.",
-            "noCase": "`{case}` ist kein gültiger Vorfall.",
+            "noCase": "No valid case or user provided",
             "cantRevokeCase": "Du kannst diesen Vorfall nicht zurückziehen."
         },
         "types": {

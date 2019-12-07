@@ -198,7 +198,7 @@
         "errors": {
             "noUser": "الرجاء ادخال عضو موجود فعلا لللبحث في السجلات عنه",
             "noHistory": "{user} لا توجد سجلات عن",
-            "noCase": "خاطئ `{case}` رمز الحالة",
+            "noCase": "No valid case or user provided",
             "cantRevokeCase": "لا يمكنك الغاء القضية او حذفها"
         },
         "types": {

@@ -198,7 +198,7 @@
         "errors": {
             "noUser": "You need to provide a user for me to lookup history on.",
             "noHistory": "{user} has no history.",
-            "noCase": "`{case}` is an invalid case.",
+            "noCase": "No valid case or user provided",
             "cantRevokeCase": "You cannot revoke this case."
         },
         "types": {

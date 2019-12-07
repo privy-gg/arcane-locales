@@ -198,7 +198,7 @@
         "errors": {
             "noUser": "U moet een gebruiker opgeven om de geschiedenis op te zoeken.",
             "noHistory": "{user} heeft geen geschiedenis.",
-            "noCase": "`{case}` is een ongeldige case.",
+            "noCase": "No valid case or user provided",
             "cantRevokeCase": "U kunt deze zaak niet intrekken."
         },
         "types": {
