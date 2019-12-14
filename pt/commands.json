@@ -337,8 +337,21 @@
     },
     "remind": {
         "noTime": "You need to provide how long I should remind you in.",
-        "reminderSet": "I will remind in in {duration}.",
-        "reminderNotification": "You asked to be reminded of \"{reminder}\""
+        "reminderSet": "I will remind in {duration}.",
+        "list": {
+            "noReminders": "You have no reminders."
+        },
+        "repeat": {
+            "reminderSet": "I wlil remind you every {duration}.",
+            "invalidTime": "You need to provide a valid time. Repeat reminders can only repeat every 24 hours or more. Example: `2d, in 2 days, in 3 weeks, 3w`"
+        },
+        "repeatlist": {
+            "noReminders": "You have no repeat reminders."
+        },
+        "delete": {
+            "invalidReminder": "You need to provide a valid reminder.",
+            "deletedReminder": "Deleted the reminder."
+        }
     },
     "embed": {
         "noJSON": "You need to provide valid JSON for me to send. <https://embed.discord.website/>",
