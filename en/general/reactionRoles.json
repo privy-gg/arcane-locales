@@ -1,0 +1,4 @@
+{
+    "addedRole": "Successfully gave you the `{role}` role in {guild}.",
+    "removedRole": "Successfully removed the `{role}` role in {guild}. "
+}

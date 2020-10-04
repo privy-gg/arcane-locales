@@ -1,0 +1,50 @@
+{
+    "spam": {
+        "warn": "{user}, you need to stop spamming.",
+        "log": {
+            "title": "Spam Detected"
+        }
+    },
+    "profanity": {
+        "warn": "{user}, please keep swearing to a minimum! (`{filteredPhrase}`)",
+        "log": {
+            "title": "Profanity Detected",
+            "content": "Message Content"
+        }
+    },
+    "phrase": {
+        "warn": "{user}, please do not use blacklisted words!",
+        "log": {
+            "title": "Blacklisted Words Detected",
+            "word": "Word"
+        }
+    },
+    "invite": {
+        "warn": "{user}, invites are not allowed!",
+        "log": {
+            "title": "Invite Detected",
+            "invite": "Invite"
+        }
+    },
+    "raid": {
+        "log": {
+            "title": "Raid Detected",
+            "accounts": "Accounts",
+            "possible": "`{accounts}` users have been detected to be participating in a raid."
+        }
+    },
+    "emoji": {
+        "warn": "{user}, spamming emojis is not allowed!",
+        "log": {
+            "title": "Emoji Spam Detected",
+            "emojiCount": "Emoji Count"
+        }
+    },
+    "caps": {
+        "warn": "{user}, excessive capitalization is not allowed!",
+        "log": {
+            "title": "Capitalization Spam Detected",
+            "percentage": "Percentage"
+        }
+    }
+}
