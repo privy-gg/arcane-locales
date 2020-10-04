@@ -1,122 +1,0 @@
-{
-    "errors": {
-        "iAmMissingPermissions": "للعمل بشكل صحيح `{perm}`خطا . احتاج الى هذا البرمشن"
-    },
-    "music": {
-        "errors": {
-            "noChannel": "وجب ان تكون متصل بغرفة صوتية.",
-            "notPlaying": "قائمة انتظار الاغاني فارغة",
-            "onlyDJ": "لاستدعاء هذا الامر DJ تحتاج الى رول"
-        },
-        "kickedFromChannel": "تم طردي من الغرفة الصوتية . يتم حذف قائمة انتظار الموسيقى و ايقاف العزف",
-        "noListeners": "فارغة من الاعضاء . لذلك تم ايقاف الموسيقى مؤقتا `{channel}` الغرفة",
-        "left": "فارغة من الاعضاء لمدة 5 دقائق . لذلك تم الخروج من الغرفة الصوتية `{channel}` الغرفة"
-    },
-    "moderation": {
-        "errors": {
-            "missingPermissions": "لاستدعاء الاوامر الادارية `{perm}` تحتاج الى برمشن ",
-            "cantPunishSelf": "لا تستطيع معاقبة نفسك. :/",
-            "cantPunishOwner": "لا تستطيع معاقبة مالك السيرفر. :/",
-            "cantPunishMe": "لا تستطيع معاقبتي :angry:"
-        }
-    },
-    "autoMod": {
-        "spam": {
-            "warn": "من فضلك توقف عن السبام . {user}",
-            "log": {
-                "title": "تم تسجيل حالة سبام"
-            }
-        },
-        "profanity": {
-            "warn": "ًًًًّّّّ(`{filteredPhrase}`) من فضلك قلل من الشتم .  {user} ",
-            "log": {
-                "title": "تم تسجيل حالة شتم",
-                "content": "محتوى الرسالة"
-            }
-        },
-        "phrase": {
-            "warn": "ًًًًّّّّمن فضلك توقف عن ذكر الكلمات الممنوعة في السيرفر .  {user} ",
-            "log": {
-                "title": "تم تسجيل حالة ذكر لكلمة ممنوعة",
-                "word": "محتوى الكلمة"
-            }
-        },
-        "invite": {
-            "warn": "الدعوات غير مسموحة! . {user}",
-            "log": {
-                "title": "تم تسجيل حالة نشر للدعوات",
-                "invite": "الدعوة"
-            }
-        },
-        "raid": {
-            "log": {
-                "title": "تم تسجيل حالة تخريب",
-                "accounts": "حسابات المخربين",
-                "possible": "تم تسجيلهم كمشاركين في عملية تخريب محتملة . `{accounts}`"
-            }
-        }
-    },
-    "modLogs": {
-        "action": {
-            "kick": "#{case} طرد - رمز الحالة",
-            "ban": "#{case} حظر - رمز الحالة",
-            "tempban": "#{case} حظر مؤقت - رمز الحالة",
-            "unban": "#{case} فك حظر - رمز الحالة"
-        },
-        "user": "المستخدم",
-        "channel": "الغرفة",
-        "moderator": "المشرف",
-        "reason": "السبب",
-        "time": "المدة",
-        "noReasonedCase": "`{prefix}reason {case} <reason>` مشرف قد استدعا الامر ",
-        "minimal": {
-            "banNoDuration": "🚨 `#{case}`: **{user}** (`{userid}`) was banned by **{moderator}**: `{reason}`",
-            "banWithDuration": "🚨 `#{case}`: **{user}** (`{userid}`) was banned by **{moderator}** for **{duration}**: `{reason}`",
-            "unban": "🔧 `#{case}`: **{user}** (`{userid}`) was unbanned by **{moderator}**: `{reason}`",
-            "kick": "👢 `#{case}`: **{user}** (`{userid}`) was kicked by **{moderator}**: `{reason}`",
-            "muteNoDuration": "😶 `#{case}`: **{user}** (`{userid}`) was muted by **{moderator}**: `{reason}`",
-            "muteWithDuration": "😶 `#{case}`: **{user}** (`{userid}`) was muted by **{moderator}** for **{duration}**: `{reason}`",
-            "unmute": "😮 `#{case}`: **{user}** (`{userid}`) was unmuted by **{moderator}**: `{reason}`",
-            "warn": "⚠️ `#{case}`: **{user}** (`{userid}`) was warned by **{moderator}**: `{reason}`",
-            "noReason": "No Reason"
-        }
-    },
-    "counters": {
-        "users": "{count} : تعداد المستخدمين ",
-        "members": "{count} : تعداد الاعضاء",
-        "bots": "{count} : تعداد البوتات"
-    },
-    "restrictions": {
-        "blacklist": {
-            "blacklistedChannel": "{channel} في الغرفة `{command}` لا يمكنك استدعاء الامر",
-            "blacklistedRole": "لانك تحوز على رول محظور `{command}` لا يمكنك استدعاء الامر"
-        }
-    },
-    "logging": {
-        "messages": {
-            "messageDeleted": "<#{channel}> تم حذف رسالة في الغرفة",
-            "content": "محنوى الرسالة",
-            "bulkDelete": "<#{channel}> رسالة في الغرفة **{number}** تم حذف",
-            "messageEdited": "<#{channel}> تم تعديل رسالة في الغرفة",
-            "oldMessage": "محتوى الرسالة القديمة",
-            "newMessage": "محتوى الرسالة الجديدة"
-        }
-    },
-    "settings": {
-        "enabled": "مفعل",
-        "disabled": "معطل"
-    },
-    "reactionRoles": {
-        "addedRole": "{guild} في السيرفر `{role}` تم اعطائك الرول ",
-        "removedRole": "{guild}منك في السيرفر `{role}` تم حذف الرول  "
-    },
-    "members": "الاعضاء",
-    "tickets": {
-        "notSetup": "{guild} has not setup tickets."
-    },
-    "suggestions": {
-        "notSetup": "{guild} has not setup suggestions.",
-        "invalidSuggestion": "{id} is not a suggestion.",
-        "noFeedback": "No feedback was provided for the suggestion"
-    }
-}

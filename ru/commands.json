@@ -26,6 +26,10 @@
         "nowLooping": "{emote} Цикл был включен.",
         "stoppedLooping": "Цикл был отключен."
     },
+    "notifications": {
+        "usingNotifications": "Notifications have been enabled.",
+        "notUsingNotifications": "Notifications have been disabled."
+    },
     "shuffle": {
         "nowShuffling": "{emote} Перестановка была включена.",
         "stoppedShuffling": "Перестановка была отключена."
@@ -79,14 +83,18 @@
         "voteBooster": {
             "hasVoted": "Усилитель голосования: **10%** `({timeRemaining} осталось)`",
             "noVote": "Усилитель голосования: [Проголосуйте сейчас за повышение на 10%](https://arcanebot.xyz/vote)",
-            "noVoteImage": "Vote Booster: Vote now for a 10% boost. https://arcanebot.xyz/vote"
+            "noVoteImage": "Vote Booster: Vote now for a 10% boost. <{url}>"
         }
     },
     "color": {
-        "invalidColor": "Вам необходимо указать правильный цвет или шестнадцатеричный код.",
-        "updatedColor": "Обновил свой цвет до `{color}`",
-        "confirmChange": "Вы уверены, что хотите изменить свой цвет?",
-        "notPremium": "Background colors require you to be a premium user. Learn more at https://arcanebot.xyz/premium."
+        "invalidColor": "You need to provide a valid color or hex code.",
+        "invalidImage": "You need to provide a direct link to the image.",
+        "invalidOpacity": "You need to provide a valid opacity. 0.1-1 EX: `.5`",
+        "updatedColor": "Updated your color to `{color}`",
+        "confirmChange": "Are you sure you want to change your color?",
+        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcanebot.xyz/premium.",
+        "updatedBackgroundImage": "Updated the level background image.",
+        "updatedOpacity": "Updated the opacity."
     },
     "setlevel": {
         "errors": {
@@ -189,10 +197,11 @@
             "noUser": "Вы должны предоставить пользователя, чтобы предупредить.",
             "cantWarn": "Я не могу предупредить {user}.",
             "cantPunishUser": "Вы не можете предупредить {user}.",
-            "noReason": "Вам необходимо указать причину."
+            "noReason": "Вам необходимо указать причину.",
+            "failedDM": "⚠️ I was unable to DM `{user}`. They may of not recieved the warning but I have added it to their history."
         },
         "successfullyWarned": "{user} был предупрежден.",
-        "warnMessage": "Вы были предупреждены в {guild}.\n\n{reason}"
+        "warnMessage": "Вы были предупреждены в {guild}.\n\n>>> {reason}"
     },
     "history": {
         "errors": {
@@ -363,7 +372,7 @@
     "reactionrole": {
         "invalidChannel": "You need to provide a valid channel",
         "invalidEmojiSelected": "{emoji} is already an emoji on the message you provided.",
-        "invalidRoleSelected": "{role} is already setup on the message you provided.",
+        "invalidRoleSelected": "You provided an invalid role.",
         "promptReaction": "React to this message with the reaction you want to use for the reaction role.",
         "invalidEmoji": "Arcane only supports normal emojis. Custom emojis do not work yet. They will come in a few weeks. You can continue to react to the above message to continue.",
         "timedOut": "Reaction role setup has been canceled. You took too long to choose a valid reaction.",
@@ -385,5 +394,15 @@
         "noID": "You need to provide a reaction role ID. The ID is given when they are completely setup or in the `{prefix}list` command.",
         "invalidID": "You need to provide a valid reaction role ID.",
         "removedReactionRole": "Removed the reaction role from the message. You will need to remove my reaction manually."
+    },
+    "restrict": {
+        "disable": {
+            "alreadyDisabled": "You need to provide a valid command which isn't already disabled.",
+            "disabled": "Disabled `{command}` for everyone in the server."
+        },
+        "enable": {
+            "alreadyEnabled": "You need to provide a valid command which isn't already enabled.",
+            "enabled": "Enabled `{command}` for everyone in the server."
+        }
     }
 }

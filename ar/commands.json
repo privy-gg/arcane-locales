@@ -26,6 +26,10 @@
         "nowLooping": "{emote} تم تشغيل اعادة التشغيل المتتالية",
         "stoppedLooping": "تم تعطيل اعادة التشغيل المتتالية"
     },
+    "notifications": {
+        "usingNotifications": "Notifications have been enabled.",
+        "notUsingNotifications": "Notifications have been disabled."
+    },
     "shuffle": {
         "nowShuffling": "{emote} تم تشغيل اعادة التشغيل ",
         "stoppedShuffling": "تم تعطيل اعادة التشغيل "
@@ -79,14 +83,18 @@
         "voteBooster": {
             "hasVoted": "**10%** : معزز التصويت`({timeRemaining} متبقي)`",
             "noVote": " [Vote now for 10% boost](https://arcanebot.xyz/vote) : معزز التصويت ",
-            "noVoteImage": "Vote Booster: Vote now for a 10% boost. https://arcanebot.xyz/vote"
+            "noVoteImage": "Vote Booster: Vote now for a 10% boost. <{url}>"
         }
     },
     "color": {
-        "invalidColor": "وجب توفير رمز صحيح لترميز HEX",
-        "updatedColor": "`{color}` تم تحديث لونك الى",
-        "confirmChange": "هل انت متاكد من تغيير لونك?",
-        "notPremium": "Background colors require you to be a premium user. Learn more at https://arcanebot.xyz/premium."
+        "invalidColor": "You need to provide a valid color or hex code.",
+        "invalidImage": "You need to provide a direct link to the image.",
+        "invalidOpacity": "You need to provide a valid opacity. 0.1-1 EX: `.5`",
+        "updatedColor": "Updated your color to `{color}`",
+        "confirmChange": "Are you sure you want to change your color?",
+        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcanebot.xyz/premium.",
+        "updatedBackgroundImage": "Updated the level background image.",
+        "updatedOpacity": "Updated the opacity."
     },
     "setlevel": {
         "errors": {
@@ -189,10 +197,11 @@
             "noUser": "يرجى تحديد عضو موجود فعلا لتحذيره",
             "cantWarn": "{user} لا يمكنني تحذير العضو",
             "cantPunishUser": "{user} لا يمكنك تحذير العضو",
-            "noReason": "يرجى ادخال سبب للتحذير"
+            "noReason": "يرجى ادخال سبب للتحذير",
+            "failedDM": "⚠️ I was unable to DM `{user}`. They may of not recieved the warning but I have added it to their history."
         },
         "successfullyWarned": "{user} تم تحذير العضو",
-        "warnMessage": "{guild} تم تحذيرك في سيرفر\n\n{reason}"
+        "warnMessage": "{guild} تم تحذيرك في سيرفر\n\n>>> {reason}"
     },
     "history": {
         "errors": {
@@ -363,7 +372,7 @@
     "reactionrole": {
         "invalidChannel": "You need to provide a valid channel",
         "invalidEmojiSelected": "{emoji} is already an emoji on the message you provided.",
-        "invalidRoleSelected": "{role} is already setup on the message you provided.",
+        "invalidRoleSelected": "You provided an invalid role.",
         "promptReaction": "React to this message with the reaction you want to use for the reaction role.",
         "invalidEmoji": "Arcane only supports normal emojis. Custom emojis do not work yet. They will come in a few weeks. You can continue to react to the above message to continue.",
         "timedOut": "Reaction role setup has been canceled. You took too long to choose a valid reaction.",
@@ -385,5 +394,15 @@
         "noID": "You need to provide a reaction role ID. The ID is given when they are completely setup or in the `{prefix}list` command.",
         "invalidID": "You need to provide a valid reaction role ID.",
         "removedReactionRole": "Removed the reaction role from the message. You will need to remove my reaction manually."
+    },
+    "restrict": {
+        "disable": {
+            "alreadyDisabled": "You need to provide a valid command which isn't already disabled.",
+            "disabled": "Disabled `{command}` for everyone in the server."
+        },
+        "enable": {
+            "alreadyEnabled": "You need to provide a valid command which isn't already enabled.",
+            "enabled": "Enabled `{command}` for everyone in the server."
+        }
     }
 }

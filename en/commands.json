@@ -1,63 +1,7 @@
 {
-    "version": {
-        "thisInstance": "Arcane is running version: `{version}`"
-    },
-    "restart": {
-        "nowRestarting": "<a:typing:528380923700314123> Restarting `{shards}` shards."
-    },
     "ping": {
         "placeholder": "Working...",
         "ping": "Pong! `{ping}ms`. API: `{api}ms`"
-    },
-    "play": {
-        "errors": {
-            "noArgs": "You need to provide something to search for or a URL.",
-            "noResults": "No results for: `{search}`",
-            "noChannel": "You must be in a voice channel.",
-            "maxSongs": "You have reached the maximium queue limit of `{max}`. You can raise this limit by purchasing Arcane Premium. <https://arcanebot.xyz/premium>",
-            "maxSongsPlaylist": "Added `{added}` songs to the queue. You have reached the maximium queue limit of `{max}`. You can raise this limit by purchasing Arcane Premium. <https://arcanebot.xyz/premium>"
-        },
-        "nowPlaying": "{emote} Now playing {name}.",
-        "addedToQueue": "Added **{name}** to the queue.",
-        "noMoreSongs": "There are no more songs in the queue!",
-        "queuedPlaylist": "Added `{songs}` songs to the queue."
-    },
-    "loop": {
-        "nowLooping": "{emote} Looping has been enabled.",
-        "stoppedLooping": "Looping has been disabled."
-    },
-    "shuffle": {
-        "nowShuffling": "{emote} Shuffling has been enabled.",
-        "stoppedShuffling": "Shuffling has been disabled."
-    },
-    "skip": {
-        "skippingSong": "Skipping the current song.",
-        "alreadyVoted": "You have already voted to skip the song.",
-        "noVotes": "There are not enough votes to skip the song. {amount} out of {required} have voted."
-    },
-    "nowplaying": {
-        "playing": "```ini\n[Now Playing] {song} requested by {user}```Progress: `{bar}` {time}"
-    },
-    "pause": {
-        "alreadyPaused": "The music is already paused. Run `{prefix}resume` to continue the music.",
-        "pausingSong": "Successfully paused the music."
-    },
-    "resume": {
-        "alreadyPlaying": "The music is already playing. Run `{prefix}pause` to pause the music.",
-        "resumingSong": "Successfully resumed the music."
-    },
-    "seek": {
-        "noArgs": "You need to provide a time to seek to.",
-        "seekedTo": "Seeked to `{time}`."
-    },
-    "volume": {
-        "noArgs": "You need to provide a volume.",
-        "setVolume": "Set the volume to `{newVolume}%`.",
-        "maxVolume": "The volume cannot go over 200.",
-        "notDonor": "This server does not have premium features enabled. The max volume non-donators can have is 150. Learn more at <https://arcanebot.xyz/premium>"
-    },
-    "stop": {
-        "stoppingPlayer": "**Stopping the music and leaving the channel.**"
     },
     "stats": {
         "cluster": "Cluster {this}/{clusters}",
@@ -79,14 +23,18 @@
         "voteBooster": {
             "hasVoted": "Vote Booster: **10%** `({timeRemaining} remaining)`",
             "noVote": "Vote Booster: [Vote now for 10% boost](https://arcanebot.xyz/vote)",
-            "noVoteImage": "Vote Booster: Vote now for a 10% boost. https://arcanebot.xyz/vote"
+            "noVoteImage": "Vote Booster: Vote now for a 10% boost. <{url}>"
         }
     },
     "color": {
         "invalidColor": "You need to provide a valid color or hex code.",
+        "invalidImage": "You need to provide a direct link to the image.",
+        "invalidOpacity": "You need to provide a valid opacity. 0.1-1 EX: `.5`",
         "updatedColor": "Updated your color to `{color}`",
         "confirmChange": "Are you sure you want to change your color?",
-        "notPremium": "Background colors require you to be premium. Learn more at https://arcanebot.xyz/premium."
+        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcanebot.xyz/premium.",
+        "updatedBackgroundImage": "Updated the level background image.",
+        "updatedOpacity": "Updated the opacity."
     },
     "setlevel": {
         "errors": {
@@ -127,14 +75,6 @@
             "embeds": "Purged {amount} embed messages.",
             "contains": "Purged {amount} messages which contained `{phrase}`."
         }
-    },
-    "ban": {
-        "errors": {
-            "noUser": "You need to provide a user to ban.",
-            "cantBan": "I am not able to ban {user}.",
-            "cantPunishUser": "You cannot ban {user}."
-        },
-        "successfullyBanned": "{user} was banned."
     },
     "slowmode": {
         "errors": {
@@ -190,10 +130,11 @@
             "noUser": "You need to provide a user to warn.",
             "cantWarn": "I am not able to warn {user}.",
             "cantPunishUser": "You cannot warn {user}.",
-            "noReason": "You need to provide a reason."
+            "noReason": "You need to provide a reason.",
+            "failedDM": "⚠️ I was unable to DM `{user}`. They may of not recieved the warning but I have added it to their history."
         },
         "successfullyWarned": "{user} was warned.",
-        "warnMessage": "You have been warned in {guild}.\n\n{reason}"
+        "warnMessage": "You have been warned in {guild}.\n\n>>> {reason}"
     },
     "history": {
         "errors": {
@@ -215,15 +156,6 @@
         "specificCase": "Moderator: `{moderator}`\nReason: {reason}\n\nRevoke the case: `{prefix}history {case} revoke`\nUpdate the case: `{prefix}case {case} New Reason`",
         "revokedCase": "Revoked case `#{case}`.",
         "resetHistory": "Revoked `{cases}` cases from {user}"
-    },
-    "tempban": {
-        "errors": {
-            "noUser": "You need to provide a user to temp ban.",
-            "cantBan": "I am not able to temp ban {user}.",
-            "cantPunishUser": "You cannot temp ban {user}.",
-            "noTime": "You need to provide how long to temp ban."
-        },
-        "successfullyBanned": "{user} was temp banned for {duration}."
     },
     "reason": {
         "noCase": "You need to provide a case to update.",
@@ -354,17 +286,10 @@
             "deletedReminder": "Deleted the reminder."
         }
     },
-    "embed": {
-        "noJSON": "You need to provide valid JSON for me to send. <https://embed.discord.website/>",
-        "noMessageID": "You need to provide the mesasge id of the embed in this channel.",
-        "cantFindMessage": "I cannot find the message `{id}`. Make sure you run the command in the channel the embed was posted in.",
-        "notMyMessage": "I cannot edit the message. I can only edit my messages.",
-        "editedMessage": "Successfully edited the message."
-    },
     "reactionrole": {
         "invalidChannel": "You need to provide a valid channel",
         "invalidEmojiSelected": "{emoji} is already an emoji on the message you provided.",
-        "invalidRoleSelected": "{role} is already setup on the message you provided.",
+        "invalidRoleSelected": "You provided an invalid role.",
         "promptReaction": "React to this message with the reaction you want to use for the reaction role.",
         "invalidEmoji": "Arcane only supports normal emojis. Custom emojis do not work yet. They will come in a few weeks. You can continue to react to the above message to continue.",
         "timedOut": "Reaction role setup has been canceled. You took too long to choose a valid reaction.",
@@ -373,7 +298,7 @@
     },
     "type": {
         "noType": "You need to provide a reaction role type.",
-        "noTypeExamples": "1. React to get a role and unreact to remove the role.\n2. React to add or remove the role. Your reaction will always be removed.\n3. Group locking. You can only have one reaction role from the message.\n ↳ **This will change all reaction roles on the message to be group locked.**\n4. Persistent roles. React to add the role. Unreacting will not remove the role.",
+        "noTypeExamples": "1. React to get a role and unreact to remove the role.\n2. React to add or remove the role. Your reaction will always be removed.\n3. Group locking. You can only have one reaction role from the message.\n ↳ **This will change all reaction roles on the message to be group locked.**\n4. Persistent roles. React to add the role. Unreacting will not remove the role.\n5. Remove role on reaction and add it back when they unreact",
         "noID": "You need to provide a reaction role ID. The ID is given when they are completely setup or in the `{prefix}list` command.",
         "invalidID": "You need to provide a valid reaction role ID.",
         "changingMultiple": "Changing multiple (group locked) reaction roles to `{type}`.",
@@ -386,5 +311,15 @@
         "noID": "You need to provide a reaction role ID. The ID is given when they are completely setup or in the `{prefix}list` command.",
         "invalidID": "You need to provide a valid reaction role ID.",
         "removedReactionRole": "Removed the reaction role from the message. You will need to remove my reaction manually."
+    },
+    "restrict": {
+        "disable": {
+            "alreadyDisabled": "You need to provide a valid command which isn't already disabled.",
+            "disabled": "Disabled `{command}` for everyone in the server."
+        },
+        "enable": {
+            "alreadyEnabled": "You need to provide a valid command which isn't already enabled.",
+            "enabled": "Enabled `{command}` for everyone in the server."
+        }
     }
 }
