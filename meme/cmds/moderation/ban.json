@@ -1,0 +1,9 @@
+{
+    "errors": {
+        "noUser": "You need to provide a user to ban.",
+        "cantBan": "I am not able to ban {user}.",
+        "cantPunishUser": "You cannot ban {user}."
+    },
+    "successfullyBanned": "{user} was banned.",
+    "successfullyBannedForDuration": "{user} was temp banned for {duration}."
+}

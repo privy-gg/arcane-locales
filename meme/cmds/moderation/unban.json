@@ -1,0 +1,9 @@
+{
+    "errors": {
+        "noUser": "You need to provide a user ID or username#discriminator to unban.",
+        "cantUnban": "I am not able to unban {user}.",
+        "cantPunishUser": "You cannot unban {user}.",
+        "notBanned": "{user} is not currently banned."
+    },
+    "successfullyUnbanned": "{user} was unbanned."
+}
