@@ -1,6 +1,0 @@
-{
-    "restrictions": {
-        "disabledGlobally": "❌ **{user}**, this command has been disabled.",
-        "disabledInThisChannel": "❌ **{user}**, this command has been disabled in this channel."
-    }
-}
