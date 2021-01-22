@@ -1,8 +1,0 @@
-{
-    "errors": {
-        "missingPermissions": "You are not able to use moderation commands. You require the `{perm}` permission.",
-        "cantPunishSelf": "I'm not sure you want to do that.",
-        "cantPunishOwner": "You cannot punish the server owner.",
-        "cantPunishMe": "I refuse to punish myself."
-    }
-}

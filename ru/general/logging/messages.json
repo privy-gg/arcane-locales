@@ -1,8 +1,0 @@
-{
-    "messageDeleted": "Message deleted in <#{channel}>",
-    "content": "Content",
-    "bulkDelete": "**{number}** messages were deleted in <#{channel}>",
-    "messageEdited": "Message edited in <#{channel}>",
-    "oldMessage": "Old Message",
-    "newMessage": "New Message"
-}

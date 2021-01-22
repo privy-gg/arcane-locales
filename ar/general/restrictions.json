@@ -1,6 +1,0 @@
-{
-    "blacklist": {
-        "blacklistedChannel": "You cannot run `{command}` in {channel}.",
-        "blacklistedRole": "You cannot run `{command}` because you have a blacklisted role."
-    }
-}
