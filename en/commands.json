@@ -1,6 +1,0 @@
-{
-    "ping": {
-        "working": "Working...",
-        "pong": "Pong! `{ws}ms` API: `{api}ms` (Gateway: {from})"
-    }
-}
