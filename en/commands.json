@@ -1,6 +1,27 @@
 {
     "ping": {
         "working": "Working...",
-        "pong": "Pong! `{ws}ms` API: `{api}ms` (Gateway: {from})"
-    }
+        "pong": "Pong! `{ws}ms` API: `{api}ms` ({key}-{shard}-{worker} / key-shard-worker)"
+    },
+    "help": {
+        "description": "The prefix for `{guildName}` is `{prefix}` \nor `{botTag}`",
+        "usefulResources": "Useful Resources",
+        "links": "[Commands List](https://arcanebot.xyz/commands)\n[Dashboard](https://arcanebot.xyz/dashboard)\n[Support Server]({supportServer})\n[Arcane Status](https://arcanebot.xyz/status)\n[Premium](https://aranebot.xyz/premium)"
+    },
+    "dashboard": "You can configure **{guildName}'s** settings here: <https://arcanebot.xyz/dashboard/{guildID}>",
+    "invite": "You can invite Arcane by visiting <https://arcanebot.xyz/invite>",
+    "premium": "You can purchase premium features by visiting <https://arcanebot.xyz/premium>",
+    "support": "You can get help with Arcane by joining our support server. {supportServer}",
+    "vote": {
+        "expiringSoon": "",
+        "expired": "",
+        "active": ""
+    },
+    "stats": {
+
+    },
+
+    "avatar": "{userTag}'s avatar",
+
+    "reactionroles": "Reaction role's are now setup via our dashboard. https://arcanebot.xyz/dashboard/{guildID}/roles"
 }
