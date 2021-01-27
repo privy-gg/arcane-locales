@@ -4,6 +4,7 @@
         "pong": "Pong! `{ws}ms` API: `{api}ms` ({key}-{shard}-{worker} / key-shard-worker)"
     },
     "help": {
+        "commands": "Arcane's Commands",
         "description": "The prefix for `{guildName}` is `{prefix}` \nor `{botTag}`",
         "usefulResources": "Useful Resources",
         "links": "[Commands List](https://arcanebot.xyz/commands)\n[Dashboard](https://arcanebot.xyz/dashboard)\n[Support Server]({supportServer})\n[Arcane Status](https://arcanebot.xyz/status)\n[Premium](https://aranebot.xyz/premium)"
