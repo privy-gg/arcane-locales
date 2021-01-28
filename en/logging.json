@@ -16,6 +16,7 @@
                 "overview": "{count} messages were deleted in {channelName} ({channelID}). This file only shows messages sent by users (not bots) in the past {days} days."
             }
         },
-        "footer": "User ID: {userID}"
+        "footer": "User ID: {userID}",
+        "missingPermission": "I do not have the `Manage Webhook` permission. Please give me permissions to manage the server's webhooks to enable message logging.\n\n**Need help?**: {supportServer}"
     }
 }
