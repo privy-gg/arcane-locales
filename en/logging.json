@@ -13,7 +13,11 @@
             "description": "**{count}** messages were deleted in <#{channelID}>",
             "file": {
                 "filename": "{channelID}-{time}-bulk-delete",
-                "overview": "{count} messages were deleted in {channelName} ({channelID}). This file only shows messages sent by users (not bots) in the past {days} days."
+                "overview": "{count} messages were deleted in {channelName} ({channelID}). This file only shows messages sent by users (not bots) in the past {days} {plural}.",
+                "plural": {
+                    "single": "day",
+                    "multiple": "days"
+                }
             }
         },
         "footer": "User ID: {userID}",
