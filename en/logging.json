@@ -1,0 +1,21 @@
+{
+    "messageLogs": {
+        "deleted": {
+            "description": "Message deleted in <#{channelID}>",
+            "content": "Content"
+        },
+        "edited": {
+            "description": "Message edited in <#{channelID}> - **[Jump to message]({messageLink})**",
+            "old": "Old Message",
+            "new": "New Message"
+        },
+        "bulk": {
+            "description": "**{count}** messages were deleted in <#{channelID}>",
+            "file": {
+                "filename": "{channelID}-{time}-bulk-delete",
+                "overview": "{count} messages were deleted in {channelName} ({channelID}). This file only shows messages sent by users (not bots) in the past {days} days."
+            }
+        },
+        "footer": "User ID: {userID}"
+    }
+}
