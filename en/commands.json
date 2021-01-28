@@ -24,5 +24,20 @@
 
     "avatar": "{userTag}'s avatar",
 
-    "reactionroles": "Reaction roles are now setup via our dashboard. <https://arcanebot.xyz/dashboard/{guildID}/roles>"
+    "reactionroles": "Reaction roles are now setup via our dashboard. <https://arcanebot.xyz/dashboard/{guildID}/roles>",
+
+    "level": {
+        "noRank": {
+            "author": "",
+            "user": ""
+        },
+        "boost": {
+            "noBoost": "",
+            "expiresIn": ""
+        }
+    },
+
+    "leaderboard": "{guildName}'s leaderboard: <https://arcanebot.xyz/lb/{guildID}>",
+    "rewards": "Rewards for {guildName}",
+    "boosters": "Boosters for {guildName}"
 }
