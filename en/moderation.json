@@ -1,0 +1,14 @@
+{
+    "automod": {},
+    "dms": {
+        "ban": "You were banned from {guildName}:",
+        "tempban": "You were temporarily banned from {guildName} for {duration}:",
+        "kick": "You were kicked from {guildName}",
+        "mute": "You were muted in {guildName}",
+        "tempmute": "You were temporarily muted in {guildName} for {duration}:",
+        "unmute": "You were unmuted in {guildName}:",
+        "reason": {
+            
+        }
+    }
+}
