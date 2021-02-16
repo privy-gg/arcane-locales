@@ -9,8 +9,8 @@
             "log": {
                 "title": "Blacklisted word(s) used",
                 "plural": {
-                    "single": "word",
-                    "multiple": "words"
+                    "single": "Word",
+                    "multiple": "Words"
                 }
             }
         },
