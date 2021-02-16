@@ -5,10 +5,44 @@
         "channel": "Channel",
 
         "blacklisted": {
-            "warn": "<@{userID}> do not use blacklisted words in {guildName}",
+            "warn": "<@{userID}> do not use blacklisted words.",
             "log": {
                 "title": "Blacklisted word(s) used",
                 "word": "Word"
+            }
+        },
+        "invite": {
+            "warn": "<@{userID}> do not send invites.",
+            "log": {
+                "title": "Invite sent",
+                "invite": "Invite"
+            }
+        },
+        "capitalization": {
+            "warn": "<@{userID}> do not use so many capitals.",
+            "log": {
+                "title": "Mass capitaliziation",
+                "percent": "Percentage"
+            } 
+        },
+        "emotes": {
+            "warn": "<@{userID}> do not use so many emojis.",
+            "log": {
+                "title": "Mass emojis",
+                "count": "Emoji Count"
+            } 
+        },
+        "profanity": {
+            "warn": "<@{userID}> do not use profanity.",
+            "log": {
+                "title": "Profanity used",
+                "profanity": "Profanity"
+            }
+        },
+        "spam": {
+            "warn": "<@{userID}> spamming is not allowed.",
+            "log": {
+                "title": "Spam detected"
             }
         }
     },
