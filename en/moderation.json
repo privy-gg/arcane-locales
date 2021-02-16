@@ -25,7 +25,8 @@
             "warn": "<@{userID}> do not use so many capitals.",
             "log": {
                 "title": "Mass capitaliziation",
-                "percent": "Percentage"
+                "percent": "Percentage",
+                "content": "Content"
             } 
         },
         "emotes": {
