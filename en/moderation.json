@@ -8,7 +8,10 @@
             "warn": "<@{userID}> do not use blacklisted words.",
             "log": {
                 "title": "Blacklisted word(s) used",
-                "word": "Word"
+                "plural": {
+                    "single": "word",
+                    "multiple": "words"
+                }
             }
         },
         "invite": {
