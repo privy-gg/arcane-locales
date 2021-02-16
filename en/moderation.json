@@ -1,5 +1,17 @@
 {
-    "automod": {},
+    "automod": {
+        "footer": "User ID: {userID}",
+        "user": "User",
+        "channel": "Channel",
+
+        "blacklisted": {
+            "warn": "<@{userID}> do not use blacklisted words in {guildName}",
+            "log": {
+                "title": "Blacklisted word(s) used",
+                "word": "Word"
+            }
+        }
+    },
     "dms": {
         "ban": "You were banned from {guildName}:",
         "tempban": "You were temporarily banned from {guildName} for {duration}:",
