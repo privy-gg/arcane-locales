@@ -60,5 +60,32 @@
         "reason": {
             
         }
+    },
+    "log": {
+        "noReason": "No reason provided",
+
+        "minimal": {
+            "banNoDuration": "🚨 `#{case}`: **{user}** (`{userid}`) was banned by **{moderator}**: `{reason}`",
+            "banWithDuration": "🚨 `#{case}`: **{user}** (`{userid}`) was banned by **{moderator}** for **{duration}**: `{reason}`",
+            "unban": "🔧 `#{case}`: **{user}** (`{userid}`) was unbanned by **{moderator}**: `{reason}`",
+            "kick": "👢 `#{case}`: **{user}** (`{userid}`) was kicked by **{moderator}**: `{reason}`",
+            "muteNoDuration": "😶 `#{case}`: **{user}** (`{userid}`) was muted by **{moderator}**: `{reason}`",
+            "muteWithDuration": "😶 `#{case}`: **{user}** (`{userid}`) was muted by **{moderator}** for **{duration}**: `{reason}`",
+            "unmute": "😮 `#{case}`: **{user}** (`{userid}`) was unmuted by **{moderator}**: `{reason}`",
+            "warn": "⚠️ `#{case}`: **{user}** (`{userid}`) was warned by **{moderator}**: `{reason}`"
+        },
+        "embed": {
+            "action": {
+                "kick": "Kick - Case #{case}",
+                "ban": "Ban - Case #{case}",
+                "tempban": "Tempban - Case #{case}",
+                "unban": "Unban - Case #{case}"
+            },
+            "user": "User",
+            "channel": "Channel",
+            "moderator": "Moderator",
+            "reason": "Reason",
+            "time": "Duration"
+        }
     }
 }
