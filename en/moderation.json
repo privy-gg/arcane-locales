@@ -18,7 +18,7 @@
             "warn": "<@{userID}> do not send invites.",
             "log": {
                 "title": "Invite sent",
-                "invite": "Inv. Code" // Or Invite Code, inv. code would just make it smaller in my eyes. 
+                "invite": "Invite Code"
             }
         },
         "capitalization": {
