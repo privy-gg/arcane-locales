@@ -48,6 +48,12 @@
             "log": {
                 "title": "Spam detected"
             }
+        },
+        "stickers": {
+            "warn": "<@{userID}> stickers are not allowed.",
+            "log": {
+                "title": "Stickers detected"
+            }
         }
     },
     "dms": {
