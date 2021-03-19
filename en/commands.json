@@ -1,7 +1,7 @@
 {
     "ping": {
         "working": "Working...",
-        "pong": "Pong! `{ws}ms` API: `{api}ms` ({key}-{shard}-{worker} / key-shard-worker)"
+        "pong": "Pong! API: `{api}ms` ({key}-{shard}-{worker} / key-shard-worker)"
     },
     "help": {
         "commands": "Arcane's Commands",
