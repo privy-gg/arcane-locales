@@ -10,7 +10,8 @@
                 "title": "Blacklisted word(s) used",
                 "plural": {
                     "single": "Word",
-                    "multiple": "Words"
+                    "multiple": "Words",
+                    "minimal": "😡 **{user}** (`{userID}`) used a blacklisted word (`{word}`) in {channel}"
                 }
             }
         },
@@ -18,7 +19,8 @@
             "warn": "<@{userID}> do not send invites.",
             "log": {
                 "title": "Invite sent",
-                "invite": "Invite Code"
+                "invite": "Invite Code",
+                "minimal": "🔌  **{user}** (`{userID}`) sent an invite (`{invite}`) in {channel}"
             }
         },
         "capitalization": {
@@ -26,33 +28,38 @@
             "log": {
                 "title": "Mass capitaliziation",
                 "percent": "Percentage",
-                "content": "Content"
+                "content": "Content",
+                "minimal": "🅰️ **{user}** (`{userID}`) sent a message with exceeding capitalization (`{percent}`) in {channel}"
             } 
         },
         "emotes": {
             "warn": "<@{userID}> do not use so many emojis.",
             "log": {
                 "title": "Mass emojis",
-                "count": "Emoji Count"
+                "count": "Emoji Count",
+                "minimal": "😀 **{user}** (`{userID}`) sent too many emojis (`{emojiCount}`) in {channel}"
             } 
         },
         "profanity": {
             "warn": "<@{userID}> do not use profanity.",
             "log": {
                 "title": "Profanity used",
-                "profanity": "Profanity"
+                "profanity": "Profanity",
+                "minimal": "🤬 **{user}** (`{userID}`) used profanity (`{word}`) in {channel}"
             }
         },
         "spam": {
             "warn": "<@{userID}> spamming is not allowed.",
             "log": {
-                "title": "Spam detected"
+                "title": "Spam detected",
+                "minimal": "⏱️ **{user}** (`{userID}`) sent too many messages in {channel}"
             }
         },
         "stickers": {
             "warn": "<@{userID}> stickers are not allowed.",
             "log": {
-                "title": "Stickers detected"
+                "title": "Stickers detected",
+                "minimal": "🖼️ **{user}** (`{userID}`) used a sticker (`{stickerName}`) in {channel}"
             }
         }
     },
