@@ -12,7 +12,12 @@
                     "single": "Word",
                     "multiple": "Words"
                 },
-                "minimal": "😡 **{user}** (`{userID}`) used a blacklisted word (`{word}`) in <#{channel}>"
+                "minimal": {
+                    "plural": {
+                        "single": "😡 **{user}** (`{userID}`) used a blacklisted word (`{word}`) in <#{channelID}>",
+                        "multiple": "😡 **{user}** (`{userID}`) used blacklisted words (`{word}`) in <#{channelID}>"
+                    }
+                }
             }
         },
         "invite": {
@@ -20,7 +25,7 @@
             "log": {
                 "title": "Invite sent",
                 "invite": "Invite Code",
-                "minimal": "🔌  **{user}** (`{userID}`) sent an invite (`{invite}`) in <#{channel}>"
+                "minimal": "🔌  **{user}** (`{userID}`) sent an invite (`{invite}`) in <#{channelID}>"
             }
         },
         "capitalization": {
@@ -29,7 +34,7 @@
                 "title": "Mass capitaliziation",
                 "percent": "Percentage",
                 "content": "Content",
-                "minimal": "🅰️ **{user}** (`{userID}`) sent a message with exceeding capitalization (`{percent}`) in <#{channel}>"
+                "minimal": "🅰️ **{user}** (`{userID}`) sent a message with exceeding capitalization (`{percent}`) in <#{channelID}>"
             } 
         },
         "emotes": {
@@ -37,7 +42,7 @@
             "log": {
                 "title": "Mass emojis",
                 "count": "Emoji Count",
-                "minimal": "😀 **{user}** (`{userID}`) sent too many emojis (`{emojiCount}`) in <#{channel}>"
+                "minimal": "😀 **{user}** (`{userID}`) sent too many emojis (`{emojiCount}`) in <#{channelID}>"
             } 
         },
         "profanity": {
@@ -45,21 +50,21 @@
             "log": {
                 "title": "Profanity used",
                 "profanity": "Profanity",
-                "minimal": "🤬 **{user}** (`{userID}`) used profanity (`{word}`) in <#{channel}>"
+                "minimal": "🤬 **{user}** (`{userID}`) used profanity (`{word}`) in <#{channelID}>"
             }
         },
         "spam": {
             "warn": "<@{userID}> spamming is not allowed.",
             "log": {
                 "title": "Spam detected",
-                "minimal": "⏱️ **{user}** (`{userID}`) sent too many messages in <#{channel}>"
+                "minimal": "⏱️ **{user}** (`{userID}`) sent too many messages in <#{channelID}>"
             }
         },
         "stickers": {
             "warn": "<@{userID}> stickers are not allowed.",
             "log": {
                 "title": "Stickers detected",
-                "minimal": "🖼️ **{user}** (`{userID}`) used a sticker (`{stickerName}`) in <#{channel}>"
+                "minimal": "🖼️ **{user}** (`{userID}`) used a sticker (`{stickerName}`) in <#{channelID}>"
             }
         }
     },
