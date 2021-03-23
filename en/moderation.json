@@ -34,7 +34,7 @@
                 "title": "Mass capitaliziation",
                 "percent": "Percentage",
                 "content": "Content",
-                "minimal": "🅰️ **{user}** (`{userID}`) sent a message with exceeding capitalization (`{percent}`) in <#{channelID}>"
+                "minimal": "🅰️ **{user}** (`{userID}`) sent a message with excessive capitalization (`{percent}`) in <#{channelID}>"
             } 
         },
         "emotes": {
