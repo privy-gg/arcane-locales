@@ -11,7 +11,7 @@
     },
     "dashboard": "You can configure **{guildName}'s** settings here: <https://arcanebot.xyz/dashboard/{guildID}>",
     "invite": "You can invite Arcane by visiting <https://arcanebot.xyz/invite>",
-    "premium": "You can purchase premium features by visiting <https://arcanebot.xyz/premium>",
+    "premium": "You can purchase premium features by visiting <https://arcanebot.xyz/premium>\n\n**__Some of Premium's Features:**\n✨Premium lets you rename Arcane and choose a custom avatar\n📈 Custom XP rates\n🆙 **Guarenteed uptime**\n🚨 Enhanced logging features\n🏋️‍♂️ Raised limits",
     "support": "You can get help with Arcane by joining our support server. {supportServer}",
     "vote": {
         "expiringSoon": "",
