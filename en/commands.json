@@ -18,11 +18,16 @@
         "expired": "",
         "active": ""
     },
-    "stats": {
-
-    },
 
     "avatar": "{userTag}'s avatar",
+    "userinfo": {
+        "description": "Mention: <@{userID}>\nID: `{userID}`\nJoined Discord: `{}`\nJoined Server: `{}`",
+        "roles": "Roles ({total} total)",
+        "noUser": "No valid user provided, defaulting to you"
+    },
+    "serverinfo": {
+        
+    },
 
     "reactionroles": "Reaction roles are now setup via our dashboard. <https://arcanebot.xyz/dashboard/{guildID}/roles>",
 
@@ -36,7 +41,6 @@
             "expiresIn": ""
         }
     },
-
     "leaderboard": "{guildName}'s leaderboard: <https://arcanebot.xyz/lb/{guildID}>",
     "rewards": "Rewards for {guildName}",
     "boosters": "Boosters for {guildName}"
