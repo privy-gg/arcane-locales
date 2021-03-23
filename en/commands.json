@@ -43,5 +43,6 @@
     },
     "leaderboard": "{guildName}'s leaderboard: <https://arcanebot.xyz/lb/{guildID}>",
     "rewards": "Rewards for {guildName}",
-    "boosters": "Boosters for {guildName}"
+    "boosters": "Boosters for {guildName}",
+    "color": "You can modify your level card here: <https://arcanebot.xyz/@me>"
 }
