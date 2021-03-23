@@ -20,7 +20,6 @@
                 }
             }
         },
-        "footer": "User ID: {userID}",
-        "missingPermission": "I do not have the `Manage Webhook` permission. Please give me permissions to manage the server's webhooks to enable message logging.\n\n**Need help?**: {supportServer}"
+        "footer": "User ID: {userID}"
     }
 }
