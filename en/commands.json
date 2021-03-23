@@ -1,4 +1,9 @@
 {
+    "errors": {
+        "noUserDefaulted": "⚠️ No valid user provided, defaulting to you",
+        "noUser": "❌ **No valid user provided**"
+    },
+
     "ping": {
         "working": "Working...",
         "pong": "Pong! API: `{api}ms` ({key}-{shard}-{worker} / key-shard-worker)"
@@ -22,8 +27,7 @@
     "avatar": "{userTag}'s avatar",
     "userinfo": {
         "description": "Mention: <@{userID}>\nID: `{userID}`\nJoined Discord: `{}`\nJoined Server: `{}`",
-        "roles": "Roles ({total} total)",
-        "noUser": "⚠️ No valid user provided, defaulting to you"
+        "roles": "Roles ({total} total)"
     },
     "serverinfo": {
 
