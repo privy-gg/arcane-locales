@@ -23,10 +23,10 @@
     "userinfo": {
         "description": "Mention: <@{userID}>\nID: `{userID}`\nJoined Discord: `{}`\nJoined Server: `{}`",
         "roles": "Roles ({total} total)",
-        "noUser": "No valid user provided, defaulting to you"
+        "noUser": "⚠️ No valid user provided, defaulting to you"
     },
     "serverinfo": {
-        
+
     },
 
     "reactionroles": "Reaction roles are now setup via our dashboard. <https://arcanebot.xyz/dashboard/{guildID}/roles>",
