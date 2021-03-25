@@ -26,9 +26,8 @@
     "premium": "You can purchase premium features by visiting <https://arcanebot.xyz/premium>\n\n**__Some of Premium's Features:**\n✨Premium lets you rename Arcane and choose a custom avatar\n📈 Custom XP rates\n🆙 **Guarenteed uptime**\n🚨 Enhanced logging features\n🏋️‍♂️ Raised limits",
     "support": "You can get help with Arcane by joining our support server. {supportServer}",
     "vote": {
-        "expiringSoon": "",
-        "expired": "",
-        "active": ""
+        "expired": "You haven't recently voted. You can upvote Arcane by visiting <https://arcanebot.xyz/vote> and you will get a **10%** xp boost!",
+        "active": "✨ Your **10%** vote boost is active! It expires in {remaining}."
     },
 
     "avatar": "{userTag}'s avatar",
