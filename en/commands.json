@@ -58,7 +58,13 @@
     "color": "You can modify your level card here: <https://arcanebot.xyz/@me>",
 
     "ban": {
+        "alreadyBanned": "❌ **{user} is already banned.**",
         "bannedUser": "{user} was banned.",
         "bannedUserWithDuration": "{user} was temporarily banned for {duration}."
+    },
+    "unban": {
+        "noUser":"❌ **No valid user provided. Provide a username#discrminator or a User ID.**",
+        "userNotBanned": "❌ **{user} is not banned.**",
+        "unbannedUser": "{user} was unbanned"
     }
 }
