@@ -66,5 +66,21 @@
         "noUser":"❌ **No valid user provided. Provide a username#discrminator or a User ID.**",
         "userNotBanned": "❌ **{user} is not banned.**",
         "unbannedUser": "{user} was unbanned"
+    },
+    "kick": {
+        "kickedUser": "{user} was kicked"
+    },
+    "mute": {
+        "alreadyMuted": "❌ **{user} is already muted.**",
+        "mutedUser": "{user} was muted.",
+        "mutedUserWithDuration": "{user} was temporarily muted for {duration}."
+    },
+    "unmute": {
+        "userNotMuted": "❌ **{user} is not muted.**",
+        "unmutedUser": "{user} was unmuted"
+    },
+    "warn": {
+        "warnedUser": "{user} was warned.",
+        "failedToDM": "⚠️ I was unable to DM {user}. They may of not recieved the warning but I have added the warning to their history."
     }
 }
