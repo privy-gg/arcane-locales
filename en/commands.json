@@ -44,12 +44,12 @@
 
     "level": {
         "noRank": {
-            "author": "",
-            "user": ""
+            "author": "You don't have a level yet. Keep talking!",
+            "user": "{user} doesn't have a level yet."
         },
         "boost": {
-            "noBoost": "",
-            "expiresIn": ""
+            "noBoost": "✨ Vote Booster: Vote now for a 10% boost <https://arcanebot.xyz/vote>",
+            "expiresIn": "✨ Vote Booster: **10%** `({remaining} remaining)`"
         }
     },
     "leaderboard": "{guildName}'s leaderboard: <https://arcanebot.xyz/lb/{guildID}>",
