@@ -1,7 +1,14 @@
 {
     "errors": {
         "noUserDefaulted": "⚠️ No valid user provided, defaulting to you",
-        "noUser": "❌ **No valid user provided**"
+        "noUser": "❌ **No valid user provided**",
+
+        "moderation": {
+            "cantModerate": "❌ **You cannot moderate {user}**",
+            "iCantModerate": "❌ **I cannot moderate {user}, move my role to the top of the list.**",
+            "cantModerateSelf": "❌ **I'm not sure you want to do that.**",
+            "cantModerateOwner": "❌ **You can't moderate the server's owner**"
+        }
     },
 
     "ping": {
@@ -48,5 +55,10 @@
     "leaderboard": "{guildName}'s leaderboard: <https://arcanebot.xyz/lb/{guildID}>",
     "rewards": "Rewards for {guildName}",
     "boosters": "Boosters for {guildName}",
-    "color": "You can modify your level card here: <https://arcanebot.xyz/@me>"
+    "color": "You can modify your level card here: <https://arcanebot.xyz/@me>",
+
+    "ban": {
+        "bannedUser": "{user} was banned.",
+        "bannedUserWithDuration": "{user} was temporarily banned for {duration}."
+    }
 }
