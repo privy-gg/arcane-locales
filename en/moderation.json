@@ -50,7 +50,12 @@
             "log": {
                 "title": "Profanity used",
                 "profanity": "Profanity",
-                "minimal": "🤬 **{user}** (`{userID}`) used profanity (`{word}`) in <#{channelID}>"
+                "minimal": {
+                    "plural": {
+                        "single": "🤬 **{user}** (`{userID}`) used profanity (`{word}`) in <#{channelID}>",
+                        "multiple": "🤬 **{user}** (`{userID}`) used profanity (`{word}`) in <#{channelID}>"
+                    }
+                }
             }
         },
         "spam": {
