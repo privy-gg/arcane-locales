@@ -82,5 +82,19 @@
     "warn": {
         "warnedUser": "{user} was warned.",
         "failedToDM": "⚠️ I was unable to DM {user}. They may of not recieved the warning but I have added the warning to their history."
+    },
+    "purge": {
+        "errors": {
+            "noPhrase": "❌ **You need to provide a word or phrase to use the contain feature.**",
+            "oldMessages": "⚠️ I was unable to purge {amount} messages because they are older than two weeks."
+        },
+        "success": {
+            "default": "Purged {amount} messages.",
+            "user": "Purged {amount} messages sent by {user}.",
+            "bot": "Purged {amount} bot messages.",
+            "embeds": "Purged {amount} messages containing embeds.",
+            "images": "Purged {amount} messages containing images.",
+            "contains": "Purged {amount} messages containing `{phrase}`."
+        }
     }
 }
