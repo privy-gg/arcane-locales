@@ -56,8 +56,14 @@
         }
     },
     "leaderboard": "{guildName}'s leaderboard: <https://arcanebot.xyz/lb/{guildID}>",
-    "rewards": "Rewards for {guildName}",
-    "boosters": "Boosters for {guildName}",
+    "rewards": {
+        "noRewards": "❌ **{guildName} has no rewards setup.**",
+        "title": "Rewards for {guildName}"
+    },
+    "boosters": {
+        "noBoosters": "❌ **{guildName} has no rewards setup.**",
+        "title": "Boosters for {guildName}"
+    },
     "color": "You can modify your level card here: <https://arcanebot.xyz/@me>",
 
     "ban": {
