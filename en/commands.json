@@ -47,8 +47,8 @@
 
     "level": {
         "noRank": {
-            "author": ""❌ **You don't have a level yet. Keep talking!**",
-            "user": ""❌ **{user} doesn't have a level yet.**"
+            "author": "❌ **You don't have a level yet. Keep talking!**",
+            "user": "❌ **{user} doesn't have a level yet.**"
         },
         "boost": {
             "noBoost": "✨ Vote Booster: Vote now for a 10% boost <https://arcanebot.xyz/vote>",
