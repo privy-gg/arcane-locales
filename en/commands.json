@@ -55,7 +55,11 @@
             "expiresIn": "✨ Vote Booster: **10%** `({remaining} remaining)`"
         }
     },
-    "leaderboard": "{guildName}'s leaderboard: <https://arcanebot.xyz/lb/{guildID}>",
+    "leaderboard": {
+        "noRanks": "❌ **Nobody in {guildName} has a level yet.**",
+        "title": "{guildName}'s Leaderboard",
+        "description": "Want to view more than the top **10** users? [**Click here**](https://arcanebot.xyz/lb/{guildID})"
+    },
     "rewards": {
         "noRewards": "❌ **{guildName} has no rewards setup.**",
         "title": "Rewards for {guildName}"
