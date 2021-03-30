@@ -62,11 +62,15 @@
     },
     "rewards": {
         "noRewards": "❌ **{guildName} has no rewards setup.**",
-        "title": "Rewards for {guildName}"
+        "title": "Rewards for {guildName}",
+
+        "reward": "Level **{level}**: <@&{roleID}>"
     },
     "boosters": {
         "noBoosters": "❌ **{guildName} has no rewards setup.**",
-        "title": "Boosters for {guildName}"
+        "title": "Boosters for {guildName}",
+
+        "booster": "<@&{roleID}>: **{percent}%**"
     },
     "color": "You can modify your level card here: <https://arcanebot.xyz/@me>",
 
