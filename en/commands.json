@@ -61,6 +61,9 @@
         "bannedUser": "{user} was banned.",
         "bannedUserWithDuration": "{user} was temporarily banned for {duration}."
     },
+    "softban": {
+        "softBannedUser": "{user} was soft-banned."
+    },
     "unban": {
         "noUser":"No valid user provided. Provide a username#discrminator or a User ID.",
         "userNotBanned": "{user} is not banned.",
