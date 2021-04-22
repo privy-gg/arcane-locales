@@ -88,6 +88,7 @@
         "noReason": "No reason provided",
 
         "minimal": {
+            "softban": "🚨 `#{case}`: **{user}** (`{userid}`) was soft-banned by **{moderator}**: `{reason}`",
             "banNoDuration": "🚨 `#{case}`: **{user}** (`{userid}`) was banned by **{moderator}**: `{reason}`",
             "banWithDuration": "🚨 `#{case}`: **{user}** (`{userid}`) was banned by **{moderator}** for **{duration}**: `{reason}`",
             "unban": "🔧 `#{case}`: **{user}** (`{userid}`) was unbanned by **{moderator}**: `{reason}`",
@@ -101,6 +102,7 @@
             "action": {
                 "kick": "Kick - Case #{case}",
                 "ban": "Ban - Case #{case}",
+                "softban": "Soft-ban - Case #{case}",
                 "tempban": "Tempban - Case #{case}",
                 "unban": "Unban - Case #{case}"
             },
