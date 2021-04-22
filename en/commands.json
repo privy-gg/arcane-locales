@@ -98,5 +98,11 @@
             "images": "Purged {amount} messages containing images.",
             "contains": "Purged {amount} messages containing `{phrase}`."
         }
+    },
+    "lock": {
+        "lockedChannel": "<#{channelID}> was locked"
+    },
+    "unlock": {
+        "lockedChannel": "<#{channelID}> was unlocked"
     }
 }
