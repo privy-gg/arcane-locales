@@ -29,7 +29,7 @@
             }
         },
         "capitalization": {
-            "warn": "<@{userID}> do not use so many capitals.",
+            "warn": "<@{userID}> do not use excessive capitals.",
             "log": {
                 "title": "Mass capitaliziation",
                 "percent": "Percentage",
