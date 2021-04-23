@@ -60,6 +60,7 @@
         },
         "spam": {
             "warn": "<@{userID}> spamming is not allowed.",
+            "muteReason": "Spamming in <#{channelID}>",
             "log": {
                 "title": "Spam detected",
                 "minimal": "⏱️ **{user}** (`{userID}`) sent too many messages in <#{channelID}>"
