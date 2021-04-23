@@ -76,6 +76,7 @@
             "warn": "<@{userID}> links are not allowed.",
             "log": {
                 "title": "Links detected",
+                "link": "Link",
                 "minimal": "📎 **{user}** (`{userID}`) sent a link (<{link}>) in <#{channelID}>"
             }
         }
