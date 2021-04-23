@@ -112,7 +112,11 @@
                 "ban": "Ban - Case #{case}",
                 "softban": "Soft-ban - Case #{case}",
                 "tempban": "Tempban - Case #{case}",
-                "unban": "Unban - Case #{case}"
+                "unban": "Unban - Case #{case}",
+                "mute": "Mute - Case #{case}",
+                "tempmute": "Tempmute - Case #{case}",
+                "unmute": "Unmute - Case #{case}",
+                "warn": "Warn - Case #{case}"
             },
             "user": "User",
             "channel": "Channel",
