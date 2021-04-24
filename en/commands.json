@@ -107,7 +107,8 @@
     "purge": {
         "errors": {
             "noPhrase": "You need to provide a word or phrase to use the contain feature.",
-            "oldMessages": "I was unable to purge {amount} messages because they are older than two weeks."
+            "oldMessages": "I was unable to purge {amount} messages because they are older than two weeks.",
+            "invalidCount": "You need to provide how many messages to purge."
         },
         "success": {
             "default": "Purged {amount} messages.",
