@@ -13,7 +13,10 @@
         "cooldowns": "{user} you are on cooldown. Please wait {duration} before running **{commandName}** again.",
         "disabled": "{user},** this command has been disabled.",
         "disabledInChannel": "{user},** this command has been disabled in <#{channelID}>.",
-        "somethingWentWrong": "Uh oh, something went wrong and I don't know what. Try again?"
+        "somethingWentWrong": "Uh oh, something went wrong and I don't know what. Try again?",
+        
+        "invalidPermission": "You require the `{permission}` permission to use this command.",
+        "invalidPermissionBot": "I require the `{permission}` to carry out actions in this command."
     },
 
     "ping": {
