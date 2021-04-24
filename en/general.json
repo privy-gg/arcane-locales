@@ -1,4 +1,4 @@
 {
-    "error": "❌ **{error}",
+    "error": "❌ **{error}**",
     "warning": "⚠️ {warning}"
 }
