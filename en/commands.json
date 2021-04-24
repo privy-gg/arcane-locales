@@ -76,31 +76,31 @@
 
     "ban": {
         "alreadyBanned": "{user} is already banned.",
-        "bannedUser": "{user} was banned.",
-        "bannedUserWithDuration": "{user} was temporarily banned for {duration}."
+        "bannedUser": "{user} was banned. Case-id: `#{case}`.",
+        "bannedUserWithDuration": "{user} was temporarily banned for {duration}. Case-id: `#{case}`."
     },
     "softban": {
-        "softBannedUser": "{user} was soft-banned."
+        "softBannedUser": "{user} was soft-banned. Case-id: `#{case}`."
     },
     "unban": {
         "noUser":"No valid user provided. Provide a username#discrminator or a User ID.",
         "userNotBanned": "{user} is not banned.",
-        "unbannedUser": "{user} was unbanned"
+        "unbannedUser": "{user} was unbanned. Case-id: `#{case}`."
     },
     "kick": {
-        "kickedUser": "{user} was kicked"
+        "kickedUser": "{user} was kicked. Case-id: `#{case}`."
     },
     "mute": {
         "alreadyMuted": "{user} is already muted.",
-        "mutedUser": "{user} was muted.",
-        "mutedUserWithDuration": "{user} was temporarily muted for {duration}."
+        "mutedUser": "{user} was muted. Case-id: `#{case}`.",
+        "mutedUserWithDuration": "{user} was temporarily muted for {duration}. Case-id: `#{case}`."
     },
     "unmute": {
         "userNotMuted": "{user} is not muted.",
-        "unmutedUser": "{user} was unmuted"
+        "unmutedUser": "{user} was unmuted. Case-id: `#{case}`."
     },
     "warn": {
-        "warnedUser": "{user} was warned.",
+        "warnedUser": "{user} was warned. Case-id: `#{case}`.",
         "failedToDM": "I was unable to DM {user}. They may of not recieved the warning but I have added the warning to their history."
     },
     "purge": {
