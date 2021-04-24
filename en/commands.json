@@ -10,9 +10,10 @@
             "cantModerateOwner": "You can't moderate the server's owner"
         },
         
-        "cooldowns": "❌ **{user} you are on cooldown. Please wait {duration} before running **{commandName}** again.",
-        "disabled": "❌ **{user},** this command has been disabled.",
-        "disabledInChannel": "❌ **{user},** this command has been disabled in <#{channelID}>."
+        "cooldowns": "{user} you are on cooldown. Please wait {duration} before running **{commandName}** again.",
+        "disabled": "{user},** this command has been disabled.",
+        "disabledInChannel": "{user},** this command has been disabled in <#{channelID}>.",
+        "somethingWentWrong": "Uh oh, something went wrong and I don't know what. Try again?"
     },
 
     "ping": {
