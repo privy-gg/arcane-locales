@@ -29,12 +29,12 @@
             }
         },
         "capitalization": {
-            "warn": "<@{userID}> do not use excessive capitals.",
+            "warn": "<@{userID}> do not use excessive capitalization.",
             "log": {
                 "title": "Mass capitaliziation",
                 "percent": "Percentage",
                 "content": "Content",
-                "minimal": "🅰️ **{user}** (`{userID}`) sent a message with excessive capitalization (`{percent}`) in <#{channelID}>"
+                "minimal": "🇦 **{user}** (`{userID}`) sent a message with excessive capitalization (`{percent}`) in <#{channelID}>"
             } 
         },
         "emotes": {
@@ -63,7 +63,7 @@
             "muteReason": "Spamming in <#{channelID}>",
             "log": {
                 "title": "Spam detected",
-                "minimal": "⏱️ **{user}** (`{userID}`) sent too many messages in <#{channelID}>"
+                "minimal": "📦 **{user}** (`{userID}`) sent too many messages in <#{channelID}>"
             }
         },
         "stickers": {
