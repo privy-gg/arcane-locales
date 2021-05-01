@@ -104,6 +104,7 @@
         "unmutedUser": "{user} was unmuted. Case-id: `#{case}`."
     },
     "warn": {
+        "noReason": "You need to provide a reason.",
         "warnedUser": "{user} was warned. Case-id: `#{case}`.",
         "failedToDM": "I was unable to DM {user}. They may of not recieved the warning but I have added the warning to their history."
     },
