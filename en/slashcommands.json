@@ -4,7 +4,8 @@
         
         "leveling": {
             "level": "Consider using Arcane's Slash Commands to view your level and rank. Try it out with `/level` or `/rank`",
-            "leaderboard": "Arcane has all new Slash Commands for our leveling features! Try out the leaderboard with `/leaderboard`"
+            "leaderboard": "Arcane has all new Slash Commands for our leveling features! Try out the leaderboard with `/leaderboard`",
+            "setlevel": "Confused with setlevel? Try out the slash command variant! `/setlevel`"
         }
     }
 }
