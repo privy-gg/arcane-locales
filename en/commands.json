@@ -40,7 +40,7 @@
 
     "avatar": "{userTag}'s avatar",
     "userinfo": {
-        "description": "Mention: <@{userID}>\nID: `{userID}`\nJoined Discord: `{}`\nJoined Server: `{}`",
+        "description": "Mention: <@{userID}>\nID: `{userID}`\nJoined Discord: `{joinedDiscord}`\nJoined Server: `{joinedServer}`",
         "roles": "Roles ({total} total)"
     },
     "serverinfo": {
