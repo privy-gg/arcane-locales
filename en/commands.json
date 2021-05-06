@@ -41,7 +41,8 @@
     "avatar": "{userTag}'s avatar",
     "userinfo": {
         "description": "Mention: <@{userID}>\nID: `{userID}`\nJoined Discord: `{joinedDiscord}`\nJoined Server: `{joinedServer}`",
-        "roles": "Roles ({total} total)"
+        "roles": "Roles ({total} total)",
+        "tooMany": "{user} has too many roles to display..."
     },
     "serverinfo": {
 
