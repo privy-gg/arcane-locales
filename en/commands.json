@@ -50,6 +50,15 @@
         "overviewData": "Server Region: `{region}`\nOwner: `{owner}`\nBoosts: `{boosts}/30` (Tier {tier})",
         "info": "Roles: `{roles}`\nChannels: `{channels}` - Text: `{text}` - Voice: `{voice}`\nMembers: `{members}`"
     },
+    "roleinfo": {
+        "noRole": "You need to provide a valid role",
+        "overview": "Overview",
+        "overviewData": "Color: `{color}`\nMentionable: `{mentionable}`\nHoisted: `{hoisted}`\nPosition: `{position}`",
+        "count": "{count} people have the <@&{roleID}> role.",
+
+        "yes": "Yes",
+        "no": "No"
+    },
 
     "reactionroles": "Reaction roles are now setup via our dashboard. <https://arcanebot.xyz/dashboard/{guildID}/roles>",
 
