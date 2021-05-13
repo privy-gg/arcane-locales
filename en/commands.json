@@ -65,8 +65,8 @@
 
     "level": {
         "noRank": {
-            "author": "❌ **You don't have a level yet. Keep talking!**",
-            "user": "❌ **{user} doesn't have a level yet.**"
+            "author": "You don't have a level yet. Keep talking!",
+            "user": "{user} doesn't have a level yet."
         },
         "boost": {
             "noBoost": "✨ Vote Booster: Vote now for a 10% boost <https://arcanebot.xyz/vote>",
@@ -74,18 +74,18 @@
         }
     },
     "leaderboard": {
-        "noRanks": "❌ **Nobody in {guildName} has a level yet.**",
+        "noRanks": "Nobody in {guildName} has a level yet.",
         "title": "{guildName}'s Leaderboard",
         "description": "Want to view more than the top **10** users? [**Click here**](https://arcanebot.xyz/lb/{guildID})"
     },
     "rewards": {
-        "noRewards": "❌ **{guildName} has no rewards setup.**",
+        "noRewards": "{guildName} has no rewards setup.",
         "title": "Rewards for {guildName}",
 
         "reward": "Level **{level}**: <@&{roleID}>"
     },
     "boosters": {
-        "noBoosters": "❌ **{guildName} has no rewards setup.**",
+        "noBoosters": "{guildName} has no rewards setup.",
         "title": "Boosters for {guildName}",
 
         "booster": "<@&{roleID}>: **{percent}%**"
