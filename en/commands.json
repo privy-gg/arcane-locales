@@ -85,7 +85,7 @@
         "reward": "Level **{level}**: <@&{roleID}>"
     },
     "boosters": {
-        "noBoosters": "{guildName} has no rewards setup.",
+        "noBoosters": "{guildName} has no xp boosters setup.",
         "title": "Boosters for {guildName}",
 
         "booster": "<@&{roleID}>: **{percent}%**"
