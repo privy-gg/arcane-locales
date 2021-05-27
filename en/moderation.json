@@ -115,5 +115,13 @@
             "reason": "Reason",
             "time": "Duration"
         }
+    },
+
+    "actions": {
+        "warn": "Warn the user",
+        "kick": "Kick the user",
+        "mute": "Mute the user",
+        "ban": "Ban the user",
+        "doNothing": "Do nothing"
     }
 }
