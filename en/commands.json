@@ -91,6 +91,13 @@
         "booster": "<@&{roleID}>: **{percent}%**"
     },
     "color": "You can modify your level card here: <https://arcanebot.xyz/@me>",
+    "setlevel": {
+        "cantSet": "You cannot edit {users}'s level",
+        "maxLevel": "You cannot set the level higher than {maxLevel} because an administrator has set {maxLevel} to be the maximium level on the dashboard.",
+        "limitReached": "You cannot set the level higher than {level}. You can get a higher limit by purchasing premium and asking an Arcane developer.",
+        "editedLevel": "Set {user}'s level to `{level}`."
+    },
+
 
     "ban": {
         "alreadyBanned": "{user} is already banned.",
