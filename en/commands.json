@@ -47,7 +47,7 @@
     "serverinfo": {
         "footer": "ID: {guildID}",
         "overview": "Overview",
-        "overviewData": "Server Region: `{region}`\nOwner: `{owner}`\nBoosts: `{boosts}/30` (Tier {tier})",
+        "overviewData": "Owner: `{owner}`\nOwner ID: `{ownerID}`\nBoosts: `{boosts}/30` (Level {tier})",
         "other": "Other",
         "info": "Roles: `{roles}`\nChannels: `{channels}` - Text: `{text}` - Voice: `{voice}`\nMembers: `{members}`"
     },
