@@ -1,3 +1,8 @@
 {
-    "unknownButton": "I'm unware of this buttons existance or you did not click this button within 24 hours of its creation."
+    "unknownButton": "I'm unware of this buttons existance or you did not click this button within 24 hours of its creation.",
+
+    "moderation": {
+        "missingPermissions": "You are not able to perform this quick action.",
+        "error": "Something went wrong with performing this quick action."
+    }
 }
