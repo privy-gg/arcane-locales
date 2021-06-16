@@ -2,7 +2,8 @@
     "unknownButton": "I'm unware of this buttons existance or you did not click this button within 24 hours of its creation.",
 
     "moderation": {
-        "missingPermissions": "You are not able to perform this quick action.",
-        "error": "Something went wrong with performing this quick action."
+        "missingPermissions": "You are not able to perform this quick action. You require the `{permission}` permission.",
+        "error": "Something went wrong with performing this quick action.",
+        "userNotInServer": "The user is no longer in the server so this quick action could not be completed."
     }
 }
