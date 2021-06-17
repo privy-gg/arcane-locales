@@ -33,7 +33,7 @@
     "support": "You can get help with Arcane by joining our support server. {supportServer}",
     "vote": {
         "expired": "You haven't recently voted. You can upvote Arcane by visiting <https://arcanebot.xyz/vote> and you will get a **10%** xp boost!",
-        "active": "✨ Your **10%** vote boost is active! It expires in {remaining}."
+        "active": "✨ Your **10%** xp vote boost is active! It expires in {remaining}."
     },
 
     "avatar": "{userTag}'s avatar",
@@ -67,7 +67,7 @@
             "user": "{user} doesn't have a level yet."
         },
         "boost": {
-            "noBoost": "✨ Vote Booster: Vote now for a 10% boost <https://arcanebot.xyz/vote>",
+            "noBoost": "✨ Vote Booster: Vote now for a 10% xp boost <https://arcanebot.xyz/vote>",
             "expiresIn": "✨ Vote Booster: **10%** `({remaining} remaining)`"
         }
     },
