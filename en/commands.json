@@ -25,14 +25,14 @@
         "commands": "Arcane's Commands",
         "description": "The prefix for `{guildName}` is `{prefix}` \nor `{botTag}`",
         "usefulResources": "Useful Resources",
-        "links": "[Commands List](https://arcanebot.xyz/commands)\n[Dashboard](https://arcanebot.xyz/dashboard)\n[Support Server]({supportServer})\n[Arcane Status](https://arcanebot.xyz/status)\n[Premium](https://arcanebot.xyz/premium)"
+        "links": "[Commands List](https://arcane.bot/commands)\n[Dashboard](https://arcane.bot/dashboard)\n[Support Server]({supportServer})\n[Arcane Status](https://arcane.bot/status)\n[Premium](https://arcane.bot/premium)"
     },
-    "dashboard": "You can configure **{guildName}'s** settings here: <https://arcanebot.xyz/dashboard/{guildID}>",
-    "invite": "You can invite Arcane by visiting <https://arcanebot.xyz/invite>",
-    "premium": "You can purchase premium features by visiting <https://arcanebot.xyz/premium>\n\n**__Some of Premium's Features:__**\n✨Premium lets you rename Arcane and choose a custom avatar\n📈 Custom XP rates\n🆙 **Guarenteed uptime**\n🚨 Enhanced logging features\n🏋️‍♂️ Raised limits",
+    "dashboard": "You can configure **{guildName}'s** settings here: <https://arcane.bot/dashboard/{guildID}>",
+    "invite": "You can invite Arcane by visiting <https://arcane.bot/invite>",
+    "premium": "You can purchase premium features by visiting <https://arcane.bot/premium>\n\n**__Some of Premium's Features:__**\n✨Premium lets you rename Arcane and choose a custom avatar\n📈 Custom XP rates\n🆙 **Guarenteed uptime**\n🚨 Enhanced logging features\n🏋️‍♂️ Raised limits",
     "support": "You can get help with Arcane by joining our support server. {supportServer}",
     "vote": {
-        "expired": "You haven't recently voted. You can upvote Arcane by visiting <https://arcanebot.xyz/vote> and you will get a **10%** xp boost!",
+        "expired": "You haven't recently voted. You can upvote Arcane by visiting <https://arcane.bot/vote> and you will get a **10%** xp boost!",
         "active": "✨ Your **10%** xp vote boost is active! It expires in {remaining}."
     },
 
@@ -59,7 +59,7 @@
         "no": "No"
     },
 
-    "reactionroles": "Reaction roles are now setup via our dashboard. <https://arcanebot.xyz/dashboard/{guildID}/roles>",
+    "reactionroles": "Reaction roles are now setup via our dashboard. <https://arcane.bot/dashboard/{guildID}/roles>",
 
     "level": {
         "noRank": {
@@ -67,14 +67,14 @@
             "user": "{user} doesn't have a level yet."
         },
         "boost": {
-            "noBoost": "✨ Vote Booster: Vote now for a 10% xp boost <https://arcanebot.xyz/vote>",
+            "noBoost": "✨ Vote Booster: Vote now for a 10% xp boost <https://arcane.bot/vote>",
             "expiresIn": "✨ Vote Booster: **10%** `({remaining} remaining)`"
         }
     },
     "leaderboard": {
         "noRanks": "Nobody in {guildName} has a level yet.",
         "title": "{guildName}'s Leaderboard",
-        "description": "Want to view more than the top **10** users? [**Click here**](https://arcanebot.xyz/lb/{guildID})"
+        "description": "Want to view more than the top **10** users? [**Click here**](https://arcane.bot/lb/{guildID})"
     },
     "rewards": {
         "noRewards": "{guildName} has no rewards setup.",
@@ -88,7 +88,7 @@
 
         "booster": "<@&{roleID}>: **{percent}%**"
     },
-    "color": "You can modify your level card here: <https://arcanebot.xyz/@me>",
+    "color": "You can modify your level card here: <https://arcane.bot/@me>",
     "setlevel": {
         "cantSet": "You cannot edit {users}'s level",
         "maxLevel": "You cannot set the level higher than {maxLevel} because an administrator has set {maxLevel} to be the maximium level on the dashboard.",
