@@ -14,8 +14,8 @@
             "noArgs": "boi wheres the link or song name",
             "noResults": "im blind and didnt fund anything for: `{search}`",
             "noChannel": "join a voice channel ya dum dum",
-            "maxSongs": "The queue decided to not co-operate anymore and has reached the limit of `{max}`. Buy more queue space at the apple store. <https://arcanebot.xyz/premium>",
-            "maxSongsPlaylist": "now playing {name} . Now,the queue is too fat now and had reached the maximum of  `{max}` calories . You can buy more queue space at the apple store. <https://arcanebot.xyz/premium>"
+            "maxSongs": "The queue decided to not co-operate anymore and has reached the limit of `{max}`. Buy more queue space at the apple store. <https://arcane.bot/premium>",
+            "maxSongsPlaylist": "now playing {name} . Now,the queue is too fat now and had reached the maximum of  `{max}` calories . You can buy more queue space at the apple store. <https://arcane.bot/premium>"
         },
         "nowPlaying": "{emote} DJ Arcane is now playing {name}.",
         "addedToQueue": "yea yea fine  **{name}** has been added to the queue.",
@@ -58,7 +58,7 @@
         "noArgs": "You gotta tell me how loud man",
         "setVolume": "Set the volume to `{newVolume}%`.",
         "maxVolume": "You wanna go deaf or someting? Max Volume is 200%",
-        "notDonor": "This server didnt gave the money to buy premium. The max volume non-donators can have is 150. Learn more at <https://arcanebot.xyz/premium>"
+        "notDonor": "This server didnt gave the money to buy premium. The max volume non-donators can have is 150. Learn more at <https://arcane.bot/premium>"
     },
     "stop": {
         "stoppingPlayer": "**Party is over i guess.**"
@@ -82,7 +82,7 @@
         "footer": "{xp} more xp to levelup!",
         "voteBooster": {
             "hasVoted": "Vote Booster: **10%** `({timeRemaining} remaining)`",
-            "noVote": "Vote Booster: [Vote now to make Dark happy and to get a 10% boost](https://arcanebot.xyz/vote)",
+            "noVote": "Vote Booster: [Vote now to make Dark happy and to get a 10% boost](https://arcane.bot/vote)",
             "noVoteImage": "Vote Booster: Vote now to make Dark happy and get a 10% boost. <{url}>"
         }
     },
@@ -92,7 +92,7 @@
         "invalidOpacity": "You need to provide a valid opacity. 0.1-1 EX: `.5`",
         "updatedColor": "Updated your color to `{color}`",
         "confirmChange": "Are you sure you want to change your color?",
-        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcanebot.xyz/premium.",
+        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcane.bot/premium.",
         "updatedBackgroundImage": "Updated the level background image.",
         "updatedOpacity": "Updated the opacity."
     },
@@ -119,7 +119,7 @@
         "done": "All done"
     },
     "rewards": {
-        "noRewards": "{guild} has no rewards setup.Why dont you make some at https://arcanebot.xyz/dashboard",
+        "noRewards": "{guild} has no rewards setup.Why dont you make some at https://arcane.bot/dashboard",
         "rewards": "Rewards for **{guild}**:"
     },
     "purge": {
@@ -242,7 +242,7 @@
         "updatedCase": "Updated case #{case}"
     },
     "leaderboard": {
-        "onlineLeaderboard": "{name}'s leaderboard: https://arcanebot.xyz/leaderboard/{id}",
+        "onlineLeaderboard": "{name}'s leaderboard: https://arcane.bot/leaderboard/{id}",
         "title": "Leaderboard for {guild}.Lets see who's truly thr best."
     },
     "redeem": {
@@ -274,13 +274,13 @@
             "disabled": "Phrase deletion has been disabled."
         }
     },
-    "vote": "You can vote for Arcane by visiting <https://arcanebot.xyz/vote>. Thank you!",
+    "vote": "You can vote for Arcane by visiting <https://arcane.bot/vote>. Thank you!",
     "support": "You can get help with Arcane by joining our support server. https://discord.gg/467YPjF",
     "help": {
         "moreHelp": "Here is a list of all my commands. You can edit {guild}'s settings [here]({dashboardLink}). If you need support you can join our [discord](https://discord.gg/467YPjF).",
         "invalidCommand": "`{command}` is an invalid command."
     },
-    "invite": "You can invite Arcane by visiting <https://arcanebot.xyz/invite>.",
+    "invite": "You can invite Arcane by visiting <https://arcane.bot/invite>.",
     "serverinfo": {
         "footer": "ID: {id}",
         "overview": "Overview",

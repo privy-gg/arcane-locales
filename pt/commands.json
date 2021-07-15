@@ -14,8 +14,8 @@
             "noArgs": "You need to provide something to search for or a URL.",
             "noResults": "No results for: `{search}`",
             "noChannel": "You must be in a voice channel.",
-            "maxSongs": "You have reached the maximium queue limit of `{max}`. You can raise this limit by purchasing Arcane Premium. <https://arcanebot.xyz/premium>",
-            "maxSongsPlaylist": "Added `{added}` songs to the queue. You have reached the maximium queue limit of `{max}`. You can raise this limit by purchasing Arcane Premium. <https://arcanebot.xyz/premium>"
+            "maxSongs": "You have reached the maximium queue limit of `{max}`. You can raise this limit by purchasing Arcane Premium. <https://arcane.bot/premium>",
+            "maxSongsPlaylist": "Added `{added}` songs to the queue. You have reached the maximium queue limit of `{max}`. You can raise this limit by purchasing Arcane Premium. <https://arcane.bot/premium>"
         },
         "nowPlaying": "{emote} Now playing {name}.",
         "addedToQueue": "Added **{name}** to the queue.",
@@ -58,7 +58,7 @@
         "noArgs": "You need to provide a volume.",
         "setVolume": "Set the volume to `{newVolume}%`.",
         "maxVolume": "The volume cannot go over 200.",
-        "notDonor": "This server does not have premium features enabled. The max volume non-donators can have is 150. Learn more at <https://arcanebot.xyz/premium>"
+        "notDonor": "This server does not have premium features enabled. The max volume non-donators can have is 150. Learn more at <https://arcane.bot/premium>"
     },
     "stop": {
         "stoppingPlayer": "**Stopping the music and leaving the channel.**"
@@ -82,7 +82,7 @@
         "footer": "{xp} more xp to levelup!",
         "voteBooster": {
             "hasVoted": "Vote Booster: **10%** `({timeRemaining} remaining)`",
-            "noVote": "Vote Booster: [Vote now for 10% boost](https://arcanebot.xyz/vote)",
+            "noVote": "Vote Booster: [Vote now for 10% boost](https://arcane.bot/vote)",
             "noVoteImage": "Vote Booster: Vote now for a 10% boost. <{url}>"
         }
     },
@@ -92,7 +92,7 @@
         "invalidOpacity": "You need to provide a valid opacity. 0.1-1 EX: `.5`",
         "updatedColor": "Updated your color to `{color}`",
         "confirmChange": "Are you sure you want to change your color?",
-        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcanebot.xyz/premium.",
+        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcane.bot/premium.",
         "updatedBackgroundImage": "Updated the level background image.",
         "updatedOpacity": "Updated the opacity."
     },
@@ -241,7 +241,7 @@
         "updatedCase": "Updated case #{case}"
     },
     "leaderboard": {
-        "onlineLeaderboard": "{name}'s leaderboard: https://arcanebot.xyz/leaderboard/{id}",
+        "onlineLeaderboard": "{name}'s leaderboard: https://arcane.bot/leaderboard/{id}",
         "title": "Leaderboard for {guild}"
     },
     "redeem": {
@@ -273,13 +273,13 @@
             "disabled": "Phrase deletion has been disabled."
         }
     },
-    "vote": "You can vote for Arcane by visiting <https://arcanebot.xyz/vote>. Thank you!",
+    "vote": "You can vote for Arcane by visiting <https://arcane.bot/vote>. Thank you!",
     "support": "You can get help with Arcane by joining our support server. https://discord.gg/467YPjF",
     "help": {
         "moreHelp": "Here is a list of all my commands. You can edit {guild}'s settings here. If you need support you can join our [discord](https://discord.gg/467YPjF).",
         "invalidCommand": "`{command}` is an invalid command."
     },
-    "invite": "You can invite Arcane by visiting <https://arcanebot.xyz/invite>.",
+    "invite": "You can invite Arcane by visiting <https://arcane.bot/invite>.",
     "serverinfo": {
         "footer": "ID: {id}",
         "overview": "Overview",

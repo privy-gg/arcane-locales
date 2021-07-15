@@ -14,8 +14,8 @@
             "noArgs": "Du musst einen Suchbegriff oder eine URL angeben.",
             "noResults": "Keine Ergebnisse für den Suchbegriff `{search}`",
             "noChannel": "Du musst in einem Voice-Channel sein.",
-            "maxSongs": "Du hast den Wiedergabelisten-Limit von `{max}` erreicht. Du kannst diesen mit Arcane Premium erhöhen. <https://arcanebot.xyz/premium>",
-            "maxSongsPlaylist": "Es wurden `{added}` Songs zur Wiedergabeliste hinzugefügt. Du hast jedoch den Wiedergabelisten-Limit von `{max}` erreicht. Du kannst diesen mit Arcane Premium erhöhen. <https://arcanebot.xyz/premium>"
+            "maxSongs": "Du hast den Wiedergabelisten-Limit von `{max}` erreicht. Du kannst diesen mit Arcane Premium erhöhen. <https://arcane.bot/premium>",
+            "maxSongsPlaylist": "Es wurden `{added}` Songs zur Wiedergabeliste hinzugefügt. Du hast jedoch den Wiedergabelisten-Limit von `{max}` erreicht. Du kannst diesen mit Arcane Premium erhöhen. <https://arcane.bot/premium>"
         },
         "nowPlaying": "{emote} Spiele nun {name}.",
         "addedToQueue": "Es wurde **{name}** zur Wiedergabeliste hinzugefügt.",
@@ -58,7 +58,7 @@
         "noArgs": "Du musst eine Lautstärke angeben.",
         "setVolume": "Die Lautstärke ist nun `{newVolume}%`.",
         "maxVolume": "Die maximale Lautstärke ist 200.",
-        "notDonor": "Dieser Server hat Premium deaktiviert. Die maximale Lautstärke für nicht-Spender ist 150. Mehr unter <https://arcanebot.xyz/premium>"
+        "notDonor": "Dieser Server hat Premium deaktiviert. Die maximale Lautstärke für nicht-Spender ist 150. Mehr unter <https://arcane.bot/premium>"
     },
     "stop": {
         "stoppingPlayer": "**Die Musik wurde gestoppt, Ich verlasse nun den Channel.**"
@@ -82,7 +82,7 @@
         "footer": "{xp} bis zum nächsten Level!",
         "voteBooster": {
             "hasVoted": "Vote-Booster: **10%** `({timeRemaining} übrig)`",
-            "noVote": "Vote-Booster: [Stimme ab für einen 10% Boost](https://arcanebot.xyz/vote)",
+            "noVote": "Vote-Booster: [Stimme ab für einen 10% Boost](https://arcane.bot/vote)",
             "noVoteImage": "Vote Booster: Vote now for a 10% boost. <{url}>"
         }
     },
@@ -92,7 +92,7 @@
         "invalidOpacity": "You need to provide a valid opacity. 0.1-1 EX: `.5`",
         "updatedColor": "Updated your color to `{color}`",
         "confirmChange": "Are you sure you want to change your color?",
-        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcanebot.xyz/premium.",
+        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcane.bot/premium.",
         "updatedBackgroundImage": "Updated the level background image.",
         "updatedOpacity": "Updated the opacity."
     },
@@ -241,7 +241,7 @@
         "updatedCase": "Vorfall #{case} wurde bearbeitet."
     },
     "leaderboard": {
-        "onlineLeaderboard": "Rangliste für {name}: https://arcanebot.xyz/leaderboard/{id}",
+        "onlineLeaderboard": "Rangliste für {name}: https://arcane.bot/leaderboard/{id}",
         "title": "Rangliste für {guild}"
     },
     "redeem": {
@@ -273,13 +273,13 @@
             "disabled": "Satzlöschung wurde deaktiviert."
         }
     },
-    "vote": "Du kannst für Arcane stimmen, indem du <https://arcanebot.xyz/vote> besuchst. Danke!",
+    "vote": "Du kannst für Arcane stimmen, indem du <https://arcane.bot/vote> besuchst. Danke!",
     "support": "Du kannst Hilfe mit Arcane bekommen, indem du unseren Support-Server besuchst. https://discord.gg/467YPjF",
     "help": {
         "moreHelp": "Hier ist eine Liste von allen meinen Commands. Du kannst die Einstellungen von {guild} hier ändern. Falls du Hilfe brauchst, joine unseren Support-Server auf [Discord](https://discord.gg/467YPjF).",
         "invalidCommand": "`{command}` ist kein gültiger Command."
     },
-    "invite": "Du kannst Arcane einladen, indem du <https://arcanebot.xyz/invite> besuchst.",
+    "invite": "Du kannst Arcane einladen, indem du <https://arcane.bot/invite> besuchst.",
     "serverinfo": {
         "footer": "ID: {id}",
         "overview": "Allgemein",

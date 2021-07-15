@@ -14,8 +14,8 @@
             "noArgs": "Вы должны предоставить что-то для поиска или URL.",
             "noResults": "Нет результатов для: `{search}`",
             "noChannel": "Вы должны быть в голосовом канале.",
-            "maxSongs": "Вы достигли максимального лимита очереди `{max}`. Вы можете повысить этот лимит, купив Arcane Premium. <https://arcanebot.xyz/premium>",
-            "maxSongsPlaylist": "Добавлено `{added}` песни в очередь. Вы достигли максимального предела очереди `{max}`. Вы можете повысить этот лимит, купив Arcane Premium. <https://arcanebot.xyz/premium>"
+            "maxSongs": "Вы достигли максимального лимита очереди `{max}`. Вы можете повысить этот лимит, купив Arcane Premium. <https://arcane.bot/premium>",
+            "maxSongsPlaylist": "Добавлено `{added}` песни в очередь. Вы достигли максимального предела очереди `{max}`. Вы можете повысить этот лимит, купив Arcane Premium. <https://arcane.bot/premium>"
         },
         "nowPlaying": "{emote} Сейчас играет {name}.",
         "addedToQueue": "Добавлено **{name}** в очередь.",
@@ -58,7 +58,7 @@
         "noArgs": "Вы должны предоставить объем.",
         "setVolume": "Установите громкость на `{newVolume}%`.",
         "maxVolume": "Объем не может превышать 200.",
-        "notDonor": "На этом сервере не включены расширенные функции. Максимальный объем не-донатеров может быть 150. Узнайте больше на <https://arcanebot.xyz/premium>"
+        "notDonor": "На этом сервере не включены расширенные функции. Максимальный объем не-донатеров может быть 150. Узнайте больше на <https://arcane.bot/premium>"
     },
     "stop": {
         "stoppingPlayer": "**Остановка музыки и выход из канала.**"
@@ -82,7 +82,7 @@
         "footer": "{xp} больше опыта, чтобы повысить уровень!",
         "voteBooster": {
             "hasVoted": "Усилитель голосования: **10%** `({timeRemaining} осталось)`",
-            "noVote": "Усилитель голосования: [Проголосуйте сейчас за повышение на 10%](https://arcanebot.xyz/vote)",
+            "noVote": "Усилитель голосования: [Проголосуйте сейчас за повышение на 10%](https://arcane.bot/vote)",
             "noVoteImage": "Vote Booster: Vote now for a 10% boost. <{url}>"
         }
     },
@@ -92,7 +92,7 @@
         "invalidOpacity": "You need to provide a valid opacity. 0.1-1 EX: `.5`",
         "updatedColor": "Updated your color to `{color}`",
         "confirmChange": "Are you sure you want to change your color?",
-        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcanebot.xyz/premium.",
+        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcane.bot/premium.",
         "updatedBackgroundImage": "Updated the level background image.",
         "updatedOpacity": "Updated the opacity."
     },
@@ -241,7 +241,7 @@
         "updatedCase": "Обновленный случай #{case}"
     },
     "leaderboard": {
-        "onlineLeaderboard": "{name} лидеры: https://arcanebot.xyz/leaderboard/{id}",
+        "onlineLeaderboard": "{name} лидеры: https://arcane.bot/leaderboard/{id}",
         "title": "Таблица лидеров для {guild}"
     },
     "redeem": {
@@ -273,13 +273,13 @@
             "disabled": "Удаление фраз было отключено."
         }
     },
-    "vote": "Вы можете проголосовать за Arcane, посетив <https://arcanebot.xyz/vote>. Спасибо!",
+    "vote": "Вы можете проголосовать за Arcane, посетив <https://arcane.bot/vote>. Спасибо!",
     "support": "Вы можете получить помощь по Arcane, присоединившись к нашему серверу поддержки. https://discord.gg/467YPjF",
     "help": {
         "moreHelp": "Вот список всех моих команд. Вы можете редактировать настройки {guild} здесь. Если вам нужна поддержка, вы можете присоединиться к нашему официальному серверу [discord](https://discord.gg/467YPjF).",
         "invalidCommand": "`{command}` неверная команда"
     },
-    "invite": "Вы можете пригласить Arcane, посетив <https://arcanebot.xyz/invite>.",
+    "invite": "Вы можете пригласить Arcane, посетив <https://arcane.bot/invite>.",
     "serverinfo": {
         "footer": "ID: {id}",
         "overview": "Обзор",

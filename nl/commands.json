@@ -14,8 +14,8 @@
             "noArgs": "U moet iets invoeren om naar te zoeken of een URL.",
             "noResults": "Geen resultaten voor: `{search}`",
             "noChannel": "Je moet op een spraakkanaal zijn.",
-            "maxSongs": "U heeft de maximale wachtrijlimiet van `{max}` bereikt. U kunt deze limiet verhogen door Arcane Premium te kopen. <https://arcanebot.xyz/premium>",
-            "maxSongsPlaylist": "`{added}` Nummers toegevoegd aan de wachtrij. U heeft de maximale wachtrijlimiet van `{max}` bereikt. U kunt deze limiet verhogen door Arcane Premium te kopen. <https://arcanebot.xyz/premium>"
+            "maxSongs": "U heeft de maximale wachtrijlimiet van `{max}` bereikt. U kunt deze limiet verhogen door Arcane Premium te kopen. <https://arcane.bot/premium>",
+            "maxSongsPlaylist": "`{added}` Nummers toegevoegd aan de wachtrij. U heeft de maximale wachtrijlimiet van `{max}` bereikt. U kunt deze limiet verhogen door Arcane Premium te kopen. <https://arcane.bot/premium>"
         },
         "nowPlaying": "{emote} Nu aan het spelen {name}.",
         "addedToQueue": "**{name}** toegevoegd aan de wachtrij.",
@@ -58,7 +58,7 @@
         "noArgs": "U moet een volume opgeven.",
         "setVolume": "Zet het volume op `{newVolume}%`.",
         "maxVolume": "Het volume mag niet hoger zijn dan 200.",
-        "notDonor": "Er zijn geen premiumfuncties ingeschakeld voor deze server. Het maximale volume dat niet-donoren kunnen hebben is 150. Meer informatie op https://arcanebot.xyz/premium"
+        "notDonor": "Er zijn geen premiumfuncties ingeschakeld voor deze server. Het maximale volume dat niet-donoren kunnen hebben is 150. Meer informatie op https://arcane.bot/premium"
     },
     "stop": {
         "stoppingPlayer": "**Stoppen de muziek en verlaten het kanaal.**"
@@ -82,7 +82,7 @@
         "footer": "{xp} meer xp naar levelup!",
         "voteBooster": {
             "hasVoted": "Stem booster: **10%** `({timeRemaining} remaining)`",
-            "noVote": "Stem booster: [Stem nu voor een boost van 10%](https://arcanebot.xyz/vote)",
+            "noVote": "Stem booster: [Stem nu voor een boost van 10%](https://arcane.bot/vote)",
             "noVoteImage": "Vote Booster: Vote now for a 10% boost. <{url}>"
         }
     },
@@ -92,7 +92,7 @@
         "invalidOpacity": "You need to provide a valid opacity. 0.1-1 EX: `.5`",
         "updatedColor": "Updated your color to `{color}`",
         "confirmChange": "Are you sure you want to change your color?",
-        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcanebot.xyz/premium.",
+        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcane.bot/premium.",
         "updatedBackgroundImage": "Updated the level background image.",
         "updatedOpacity": "Updated the opacity."
     },
@@ -241,7 +241,7 @@
         "updatedCase": "Bijgewerkte case #{case}"
     },
     "leaderboard": {
-        "onlineLeaderboard": "{name}'s Scorebord: https://arcanebot.xyz/leaderboard/{id}",
+        "onlineLeaderboard": "{name}'s Scorebord: https://arcane.bot/leaderboard/{id}",
         "title": "Scorebord voor {guild}"
     },
     "redeem": {
@@ -273,13 +273,13 @@
             "disabled": "Zin verwijderen is uitgeschakeld."
         }
     },
-    "vote": "Je kunt op Arcane stemmen door naar <https://arcanebot.xyz/vote> te gaan. Dank je!",
+    "vote": "Je kunt op Arcane stemmen door naar <https://arcane.bot/vote> te gaan. Dank je!",
     "support": "U kunt hulp krijgen bij Arcane door lid te worden van onze ondersteuningsserver. https://discord.gg/467YPjF",
     "help": {
         "moreHelp": "Hier is een lijst van al mijn commandos. Je kunt de {guild} instellingen hier bewerken. Als u ondersteuning nodig heeft, kunt u lid worden van onze [discord](https://discord.gg/467YPjF).",
         "invalidCommand": "`{command} is een ongeldige opdracht."
     },
-    "invite": "U kunt Arcane uitnodigen door <https://arcanebot.xyz/invite> te bezoeken.",
+    "invite": "U kunt Arcane uitnodigen door <https://arcane.bot/invite> te bezoeken.",
     "serverinfo": {
         "footer": "ID: {id}",
         "overview": "Overzicht",

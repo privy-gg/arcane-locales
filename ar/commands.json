@@ -14,8 +14,8 @@
             "noArgs": "يرجى ذكر كلمة او رابط للبحث عنه",
             "noResults": "`{search}` لا نتائج للكلمة / الرابط",
             "noChannel": "وجب ان تكون متصل بغرفة صوتية",
-            "maxSongs": "<https://arcanebot.xyz/premium> يمكنك حذف هذا الحد بشراء النسخة المدفوعة للبوت . `{max}` لقد وصلت الى الحد الاقصى لقائمة انتظار الاغاني ",
-            "maxSongsPlaylist": "الى لائحة الانتظار `{added}` تم اضافة. <https://arcanebot.xyz/premium> يمكنك حذف هذا الحد بشراء النسخة المدفوعة للبوت . `{max}` لقد وصلت الى الحد الاقصى لقائمة انتظار الاغاني "
+            "maxSongs": "<https://arcane.bot/premium> يمكنك حذف هذا الحد بشراء النسخة المدفوعة للبوت . `{max}` لقد وصلت الى الحد الاقصى لقائمة انتظار الاغاني ",
+            "maxSongsPlaylist": "الى لائحة الانتظار `{added}` تم اضافة. <https://arcane.bot/premium> يمكنك حذف هذا الحد بشراء النسخة المدفوعة للبوت . `{max}` لقد وصلت الى الحد الاقصى لقائمة انتظار الاغاني "
         },
         "nowPlaying": "{emote} .الان {name} يتم عزف",
         "addedToQueue": "الى لائحة الانتظار **{name}** تم اضافة",
@@ -58,7 +58,7 @@
         "noArgs": "الرجاء توفير مستوى صوت",
         "setVolume": "`{newVolume}%` تم تعيين مستوى الصوت الى",
         "maxVolume": "لا يمكن تعيين مستوي صوت اكبر من 200",
-        "notDonor": "<https://arcanebot.xyz/premium> هذا السيرفر لا يشمل خواص النسخة المدفوعة مفعلة لذلك . لايمكن تعيين مستوى صوت اكبر من 150 . اقرا المزيد حول هذا الموضوع في"
+        "notDonor": "<https://arcane.bot/premium> هذا السيرفر لا يشمل خواص النسخة المدفوعة مفعلة لذلك . لايمكن تعيين مستوى صوت اكبر من 150 . اقرا المزيد حول هذا الموضوع في"
     },
     "stop": {
         "stoppingPlayer": "**يتم حاليا ايقاف الموسيقى و الخروج من الغرفة الصوتية**"
@@ -82,7 +82,7 @@
         "footer": "من نقاط الخبرة لتتقدم في المستوى! {xp} يلزمك",
         "voteBooster": {
             "hasVoted": "**10%** : معزز التصويت`({timeRemaining} متبقي)`",
-            "noVote": " [Vote now for 10% boost](https://arcanebot.xyz/vote) : معزز التصويت ",
+            "noVote": " [Vote now for 10% boost](https://arcane.bot/vote) : معزز التصويت ",
             "noVoteImage": "Vote Booster: Vote now for a 10% boost. <{url}>"
         }
     },
@@ -92,7 +92,7 @@
         "invalidOpacity": "You need to provide a valid opacity. 0.1-1 EX: `.5`",
         "updatedColor": "Updated your color to `{color}`",
         "confirmChange": "Are you sure you want to change your color?",
-        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcanebot.xyz/premium.",
+        "notPremium": "Background colors, transparency, and images require you to be premium. Learn more at https://arcane.bot/premium.",
         "updatedBackgroundImage": "Updated the level background image.",
         "updatedOpacity": "Updated the opacity."
     },
@@ -241,7 +241,7 @@
         "updatedCase": "#{case} تم تحذيث القضية ذات الترميز"
     },
     "leaderboard": {
-        "onlineLeaderboard": "https://arcanebot.xyz/leaderboard/{id} : {name} قائمة المتصدرين ل ",
+        "onlineLeaderboard": "https://arcane.bot/leaderboard/{id} : {name} قائمة المتصدرين ل ",
         "title": "{guild} لائحة المتصدرين ل"
     },
     "redeem": {
@@ -273,13 +273,13 @@
             "disabled": "تم تعطيل الرسائل"
         }
     },
-    "vote": " <https://arcanebot.xyz/vote> يمكنك التصويت للبوت بزيارة الرابط التالي",
+    "vote": " <https://arcane.bot/vote> يمكنك التصويت للبوت بزيارة الرابط التالي",
     "support": " https://discord.gg/467YPjF يمكنك الحصول على مساعدة بخصوص البوت بالانضمام الى سيرفر الدعم",
     "help": {
         "moreHelp": "[Support Server](https://discord.gg/467YPjF) . هنا {guild} هذه لائحة عن جميع اوامر اركاني . يمكنك تغغير اعدادات",
         "invalidCommand": " `{command}` لا وجود لامر باسم "
     },
-    "invite": " <https://arcanebot.xyz/invite> : يمكنك اضافة اركاني من خلال الرابط التالي",
+    "invite": " <https://arcane.bot/invite> : يمكنك اضافة اركاني من خلال الرابط التالي",
     "serverinfo": {
         "footer": "الايدي: {id}",
         "overview": "معلومات عامة",
