@@ -121,6 +121,10 @@
         "noRewards": "{guild} heeft geen beloningen ingesteld.",
         "rewards": "Beloningen voor **{guild}**:"
     },
+    "boosters": {
+        "noBoosters": "{guild} has no boosters setup.",
+        "boosters": "XP Boosters for **{guild}**:"
+    },
     "purge": {
         "errors": {
             "invalidAmount": "U moet opgeven hoeveel berichten u wilt verwijderen.",
@@ -245,7 +249,7 @@
         "title": "Scorebord voor {guild}"
     },
     "redeem": {
-        "notSupportServer": "Deze opdracht kan alleen worden gebruikt in de officiële ondersteuningsserver. https://discord.gg/467YPjF",
+        "notSupportServer": "Deze opdracht kan alleen worden gebruikt in de officiële ondersteuningsserver. https://discord.gg/arcane",
         "notEligible": "U moet voordelen kopen op onze Patreon (https://patreon.com/arcanebot) om deze opdracht te gebruiken.\n\n↳ Als u premium hebt gekocht, controleer dan of u uw discord-account aan patreon hebt gekoppeld.\n↳ Als u deze instelling niet kunt krijgen, DM `ImDarkDiamond#0256`",
         "redeemed": {
             "tier1": "Bedankt voor het aanschaffen van `Tier 1`. Uw extra's blijven van kracht totdat u stopt met betalen voor Tier 1. U kunt de extras inschakelen op **2** discord-servers.",
@@ -274,9 +278,9 @@
         }
     },
     "vote": "Je kunt op Arcane stemmen door naar <https://arcane.bot/vote> te gaan. Dank je!",
-    "support": "U kunt hulp krijgen bij Arcane door lid te worden van onze ondersteuningsserver. https://discord.gg/467YPjF",
+    "support": "U kunt hulp krijgen bij Arcane door lid te worden van onze ondersteuningsserver. https://discord.gg/arcane",
     "help": {
-        "moreHelp": "Hier is een lijst van al mijn commandos. Je kunt de {guild} instellingen hier bewerken. Als u ondersteuning nodig heeft, kunt u lid worden van onze [discord](https://discord.gg/467YPjF).",
+        "moreHelp": "Hier is een lijst van al mijn commandos. Je kunt de {guild} instellingen hier bewerken. Als u ondersteuning nodig heeft, kunt u lid worden van onze [discord](https://discord.gg/arcane).",
         "invalidCommand": "`{command} is een ongeldige opdracht."
     },
     "invite": "U kunt Arcane uitnodigen door <https://arcane.bot/invite> te bezoeken.",
@@ -346,7 +350,7 @@
     },
     "remind": {
         "noTime": "You need to provide how long I should remind you in.",
-        "reminderSet": "I will remind in {duration}.",
+        "reminderSet": "I will remind you in {duration}. ID: {id}",
         "list": {
             "noReminders": "You have no reminders."
         },

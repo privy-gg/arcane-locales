@@ -1,8 +1,10 @@
 {
     "messageDeleted": "Message deleted in <#{channel}>",
+    "messageDeletedInThread": "Message deleted in thread <#{thread> in <#{channel}>",
     "content": "Content",
     "bulkDelete": "**{number}** messages were deleted in <#{channel}>",
-    "messageEdited": "Message edited in <#{channel}>",
+    "messageEdited": "Message edited in <#{channel}> - [**Jump to message**]({link})",
+    "messageEditedInThread": "Message edited in thread <#{thread}> in <#{channel}> - [**Jump to thread message**]({link})",
     "oldMessage": "Old Message",
     "newMessage": "New Message"
 }

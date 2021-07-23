@@ -121,6 +121,10 @@
         "noRewards": "لا يملك نظام جوائز بعد {guild}",
         "rewards": "**{guild}** : الجوائز الخاصة ب"
     },
+    "boosters": {
+        "noBoosters": "{guild} has no boosters setup.",
+        "boosters": "XP Boosters for **{guild}**:"
+    },
     "purge": {
         "errors": {
             "invalidAmount": "الرجاء ادخال رقم صحيح لحذف الرسائل",
@@ -245,7 +249,7 @@
         "title": "{guild} لائحة المتصدرين ل"
     },
     "redeem": {
-        "notSupportServer": " https://discord.gg/467YPjF هذا الامر يمكن ايتدعائه فقط في سيرفر الدعم الرسمي",
+        "notSupportServer": " https://discord.gg/arcane هذا الامر يمكن ايتدعائه فقط في سيرفر الدعم الرسمي",
         "notEligible": " (https://patreon.com/arcanebot) وجب شراء الخصائص المدفوعة عبر صفحة الباتريون\n\n↳ يرجى التاكد من ربط حساب الباتريون ب حساب المستخدم بعد الشراء\n↳للاستفسار  `ImDarkDiamond#0256` يرجى الاتصال ب",
         "redeemed": {
             "tier1": "معززاتك ستبقى حتى تتوقف عن الدفع . بامكانك تفعيل المعززات في **2** من السيرفرات . `Tier 1` شكرا لشراء ",
@@ -274,9 +278,9 @@
         }
     },
     "vote": " <https://arcane.bot/vote> يمكنك التصويت للبوت بزيارة الرابط التالي",
-    "support": " https://discord.gg/467YPjF يمكنك الحصول على مساعدة بخصوص البوت بالانضمام الى سيرفر الدعم",
+    "support": " https://discord.gg/arcane يمكنك الحصول على مساعدة بخصوص البوت بالانضمام الى سيرفر الدعم",
     "help": {
-        "moreHelp": "[Support Server](https://discord.gg/467YPjF) . هنا {guild} هذه لائحة عن جميع اوامر اركاني . يمكنك تغغير اعدادات",
+        "moreHelp": "[Support Server](https://discord.gg/arcane) . هنا {guild} هذه لائحة عن جميع اوامر اركاني . يمكنك تغغير اعدادات",
         "invalidCommand": " `{command}` لا وجود لامر باسم "
     },
     "invite": " <https://arcane.bot/invite> : يمكنك اضافة اركاني من خلال الرابط التالي",
@@ -346,7 +350,7 @@
     },
     "remind": {
         "noTime": "You need to provide how long I should remind you in.",
-        "reminderSet": "I will remind in {duration}.",
+        "reminderSet": "I will remind you in {duration}. ID: {id}",
         "list": {
             "noReminders": "You have no reminders."
         },

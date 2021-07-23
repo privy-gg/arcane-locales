@@ -62,6 +62,10 @@
         "noRewards": "{guild} has no rewards setup.",
         "rewards": "Rewards for **{guild}**:"
     },
+    "boosters": {
+        "noBoosters": "{guild} has no boosters setup.",
+        "boosters": "XP Boosters for **{guild}**:"
+    },
     "purge": {
         "errors": {
             "invalidAmount": "You need to provide how many messages to purge.",
@@ -169,7 +173,7 @@
         "title": "Leaderboard for {guild}"
     },
     "redeem": {
-        "notSupportServer": "This command can only be used in the official support server. https://discord.gg/467YPjF",
+        "notSupportServer": "This command can only be used in the official support server. https://discord.gg/arcane",
         "notEligible": "You must purchase perks on our Patreon (https://patreon.com/arcanebot) to use this command.\n\n↳ If you have purchased a tier make sure to verify you have linked your discord account to patreon.\n↳ If you can't get this set up please DM `ImDarkDiamond#0256`",
         "redeemed": {
             "tier1": "Thank you for purchasing `Tier 1`. Your perks will remain until you stop paying for Tier 1. You can enable the perks on **2** discord servers.",
@@ -198,9 +202,9 @@
         }
     },
     "vote": "You can vote for Arcane by visiting <https://arcane.bot/vote>. Thank you!",
-    "support": "You can get help with Arcane by joining our support server. https://discord.gg/467YPjF",
+    "support": "You can get help with Arcane by joining our support server. https://discord.gg/arcane",
     "help": {
-        "moreHelp": "Here is a list of all my commands. You can edit {guild}'s settings [here]({dashboardLink}). If you need support you can join our [discord](https://discord.gg/467YPjF).",
+        "moreHelp": "Here is a list of all my commands. You can edit {guild}'s settings [here]({dashboardLink}). If you need support you can join our [discord](https://discord.gg/arcane).",
         "invalidCommand": "`{command}` is an invalid command."
     },
     "invite": "You can invite Arcane by visiting <https://arcane.bot/invite>.",
@@ -270,7 +274,7 @@
     },
     "remind": {
         "noTime": "You need to provide how long I should remind you in.",
-        "reminderSet": "I will remind in {duration}.",
+        "reminderSet": "I will remind you in {duration}. ID: {id}",
         "list": {
             "noReminders": "You have no reminders."
         },

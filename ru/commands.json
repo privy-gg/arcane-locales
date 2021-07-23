@@ -121,6 +121,10 @@
         "noRewards": "{guild} не имеет настроеных наград.",
         "rewards": "Награды в **{guild}**:"
     },
+    "boosters": {
+        "noBoosters": "{guild} has no boosters setup.",
+        "boosters": "XP Boosters for **{guild}**:"
+    },
     "purge": {
         "errors": {
             "invalidAmount": "Вам необходимо указать, сколько сообщений нужно удалить.",
@@ -245,7 +249,7 @@
         "title": "Таблица лидеров для {guild}"
     },
     "redeem": {
-        "notSupportServer": "Эта команда может использоваться только на официальном сервере поддержки. https://discord.gg/467YPjF",
+        "notSupportServer": "Эта команда может использоваться только на официальном сервере поддержки. https://discord.gg/arcane",
         "notEligible": "Вы должны приобрести возможности в нашем Patreon (https://patreon.com/arcanebot), чтобы использовать эту команду.\n↳ Если вы не можете настроить это, пожалуйста, напишите `ImDarkDiamond#0256`",
         "redeemed": {
             "tier1": "Спасибо за покупку `Tier 1`. Ваши привилегии будут оставаться до тех пор, пока вы не прекратите платить за Уровень 1. Вы можете активировать привилегии на **2** серверов.",
@@ -274,9 +278,9 @@
         }
     },
     "vote": "Вы можете проголосовать за Arcane, посетив <https://arcane.bot/vote>. Спасибо!",
-    "support": "Вы можете получить помощь по Arcane, присоединившись к нашему серверу поддержки. https://discord.gg/467YPjF",
+    "support": "Вы можете получить помощь по Arcane, присоединившись к нашему серверу поддержки. https://discord.gg/arcane",
     "help": {
-        "moreHelp": "Вот список всех моих команд. Вы можете редактировать настройки {guild} здесь. Если вам нужна поддержка, вы можете присоединиться к нашему официальному серверу [discord](https://discord.gg/467YPjF).",
+        "moreHelp": "Вот список всех моих команд. Вы можете редактировать настройки {guild} здесь. Если вам нужна поддержка, вы можете присоединиться к нашему официальному серверу [discord](https://discord.gg/arcane).",
         "invalidCommand": "`{command}` неверная команда"
     },
     "invite": "Вы можете пригласить Arcane, посетив <https://arcane.bot/invite>.",
@@ -346,7 +350,7 @@
     },
     "remind": {
         "noTime": "You need to provide how long I should remind you in.",
-        "reminderSet": "I will remind in {duration}.",
+        "reminderSet": "I will remind you in {duration}. ID: {id}",
         "list": {
             "noReminders": "You have no reminders."
         },

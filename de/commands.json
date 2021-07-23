@@ -121,6 +121,10 @@
         "noRewards": "{guild} hat keine Belohnungen.",
         "rewards": "Belohnungen in **{guild}**:"
     },
+    "boosters": {
+        "noBoosters": "{guild} has no boosters setup.",
+        "boosters": "XP Boosters for **{guild}**:"
+    },
     "purge": {
         "errors": {
             "invalidAmount": "Du musst angeben, wie viele Nachrichten bereinigt werden sollten.",
@@ -245,7 +249,7 @@
         "title": "Rangliste für {guild}"
     },
     "redeem": {
-        "notSupportServer": "Dieser Befehl ist nur nutzbar im offiziellen Support-Server. https://discord.gg/467YPjF",
+        "notSupportServer": "Dieser Befehl ist nur nutzbar im offiziellen Support-Server. https://discord.gg/arcane",
         "notEligible": "Du musst Vorteile auf unserem Patreon (https://patreon.com/arcanebot) kaufen um diesen Command zu nutzen.\n\n↳ Wenn du dies getan hast, stelle sicher, dass du deinen Patreon-Account mit Discord verknüpft hast.\n↳ Falls du nicht weiterkommst, bitte schreibe eine PN an `ImDarkDiamond#0256`",
         "redeemed": {
             "tier1": "Danke für das Kaufen von `Tier 1`. Deine Vorteile werden bleiben, bis du aufhörst zu bezahlen. Du kannst die Vorteile in **2** Discord-Servern aktivieren.",
@@ -274,9 +278,9 @@
         }
     },
     "vote": "Du kannst für Arcane stimmen, indem du <https://arcane.bot/vote> besuchst. Danke!",
-    "support": "Du kannst Hilfe mit Arcane bekommen, indem du unseren Support-Server besuchst. https://discord.gg/467YPjF",
+    "support": "Du kannst Hilfe mit Arcane bekommen, indem du unseren Support-Server besuchst. https://discord.gg/arcane",
     "help": {
-        "moreHelp": "Hier ist eine Liste von allen meinen Commands. Du kannst die Einstellungen von {guild} hier ändern. Falls du Hilfe brauchst, joine unseren Support-Server auf [Discord](https://discord.gg/467YPjF).",
+        "moreHelp": "Hier ist eine Liste von allen meinen Commands. Du kannst die Einstellungen von {guild} hier ändern. Falls du Hilfe brauchst, joine unseren Support-Server auf [Discord](https://discord.gg/arcane).",
         "invalidCommand": "`{command}` ist kein gültiger Command."
     },
     "invite": "Du kannst Arcane einladen, indem du <https://arcane.bot/invite> besuchst.",
@@ -346,7 +350,7 @@
     },
     "remind": {
         "noTime": "You need to provide how long I should remind you in.",
-        "reminderSet": "I will remind in {duration}.",
+        "reminderSet": "I will remind you in {duration}. ID: {id}",
         "list": {
             "noReminders": "You have no reminders."
         },
